@@ -1,0 +1,3081 @@
+# README
+
+Install Western Digital Software
+Run WD Discovery software
+Unlock the storage (pw: suhlab10518)
+
+
+# Filetree of YY014_T1D_2022
+
+.
+├── $RECYCLE.BIN
+│   └── desktop.ini
+├── Install Western Digital Software for Mac.dmg
+├── Install Western Digital Software for Windows.exe
+├── System Volume Information
+│   ├── EDP
+│   │   └── Recovery
+│   ├── IndexerVolumeGuid
+│   └── WPSettings.dat
+├── filetree.txt
+└── tri4c
+    └── YY014_T1D_2022
+        ├── bam_combined
+        │   ├── 1018Mono_combined.bam.bed.gz
+        │   ├── 1018Mono_combined.bam_sort.bedgraph.gz
+        │   ├── 1018Mono_combined.bw
+        │   ├── 1018Mono_combined.sort_rg.bai
+        │   ├── 1018Mono_combined.sort_rg.bam
+        │   ├── 1018Mono_summits.bed
+        │   ├── 1018T_combined.bam.bed.gz
+        │   ├── 1018T_combined.bam_sort.bedgraph.gz
+        │   ├── 1018T_combined.bw
+        │   ├── 1018T_combined.sort_rg.bai
+        │   ├── 1018T_combined.sort_rg.bam
+        │   ├── 1018T_combined_RMI2.bam.bai
+        │   ├── 1018T_combined_summits.bed
+        │   ├── 1018_pooled.bam
+        │   ├── 1018_pooled.bam.bai
+        │   ├── 1018_pooled.rg.bai
+        │   ├── 1018_pooled.rg.bam
+        │   ├── 1027Mono_combined.bam.bed.gz
+        │   ├── 1027Mono_combined.bam_sort.bedgraph.gz
+        │   ├── 1027Mono_combined.bw
+        │   ├── 1027Mono_combined.sort_rg.bai
+        │   ├── 1027Mono_combined.sort_rg.bam
+        │   ├── 1027Mono_summits.bed
+        │   ├── 1027T_combined.bam.bed.gz
+        │   ├── 1027T_combined.bam_sort.bedgraph.gz
+        │   ├── 1027T_combined.bw
+        │   ├── 1027T_combined.sort_rg.bai
+        │   ├── 1027T_combined.sort_rg.bam
+        │   ├── 1027T_combined_summits.bed
+        │   ├── 1027_pooled.bam
+        │   ├── 1027_pooled.bam.bai
+        │   ├── 1027_pooled.rg.bai
+        │   ├── 1027_pooled.rg.bam
+        │   ├── 1035Mono_combined.bam.bed.gz
+        │   ├── 1035Mono_combined.bam_sort.bedgraph.gz
+        │   ├── 1035Mono_combined.bw
+        │   ├── 1035Mono_combined.sort_rg.bai
+        │   ├── 1035Mono_combined.sort_rg.bam
+        │   ├── 1035Mono_summits.bed
+        │   ├── 1035T_combined.bam.bed.gz
+        │   ├── 1035T_combined.bam_sort.bedgraph.gz
+        │   ├── 1035T_combined.bw
+        │   ├── 1035T_combined.sort_rg.bai
+        │   ├── 1035T_combined.sort_rg.bam
+        │   ├── 1035T_combined_summits.bed
+        │   ├── 1035_pooled.bam
+        │   ├── 1035_pooled.bam.bai
+        │   ├── 1035_pooled.rg.bai
+        │   ├── 1035_pooled.rg.bam
+        │   ├── 1046Mono_combined.bam.bed.gz
+        │   ├── 1046Mono_combined.bam_sort.bedgraph.gz
+        │   ├── 1046Mono_combined.bw
+        │   ├── 1046Mono_combined.sort_rg.bai
+        │   ├── 1046Mono_combined.sort_rg.bam
+        │   ├── 1046Mono_summits.bed
+        │   ├── 1046T_combined.bam.bed.gz
+        │   ├── 1046T_combined.bam_sort.bedgraph.gz
+        │   ├── 1046T_combined.bw
+        │   ├── 1046T_combined.sort_rg.bai
+        │   ├── 1046T_combined.sort_rg.bam
+        │   ├── 1046T_combined_summits.bed
+        │   ├── 1046_pooled.bam
+        │   ├── 1046_pooled.bam.bai
+        │   ├── 1046_pooled.rg.bai
+        │   ├── 1046_pooled.rg.bam
+        │   ├── Mono_combined.bam
+        │   ├── Mono_combined.bam.aEdAc308
+        │   ├── T_combined.bam
+        │   ├── T_combined.bam.74beB3fB
+        │   ├── T_pooled_11B.bam
+        │   ├── T_pooled_11B.bam.1FdBBF6B
+        │   ├── T_pooled_11B.bam.bai
+        │   ├── T_pooled_11B.bam.bed.gz
+        │   ├── T_pooled_11B.bam.bed.gz.b6D34793
+        │   ├── T_pooled_11B.bam_sort.bedgraph.gz
+        │   ├── T_pooled_11B.bw
+        │   ├── T_pooled_11B_combined.bam.bed.gz
+        │   └── T_pooled_11B_summits.bed
+        ├── bam_csaw
+        │   ├── cbp_results-fdr5_fc2.csv
+        │   ├── cbp_results.csv
+        │   ├── cbp_results.rds
+        │   ├── hist-filter_stat.png
+        │   ├── mds-norm_adjc.png
+        │   ├── scatter-BCV_plot_EB_shringkage_effects.png
+        │   ├── scatter-BCV_plot_abundance-dependent_trend.png
+        │   ├── scatter-filtered-after_normalized.png
+        │   └── scatter-filtered-before_normalized.png
+        ├── bam_macs2
+        │   ├── 1018Mono_control_lambda.bdg.gz
+        │   ├── 1018Mono_peaks.narrowPeak.gz
+        │   ├── 1018Mono_peaks.xls
+        │   ├── 1018Mono_treat_pileup.bdg.bw
+        │   ├── 1018Mono_treat_pileup.bdg.bw.BAA96c65
+        │   ├── 1018Mono_treat_pileup.bdg.gz
+        │   ├── 1018Mono_treat_pileup.bedclip.bdg.gz
+        │   ├── 1018Mono_treat_pileup.bedclip_sort.bdg.gz
+        │   ├── 1018T_combined_control_lambda.bdg.gz
+        │   ├── 1018T_combined_peaks.narrowPeak.gz
+        │   ├── 1018T_combined_peaks.xls
+        │   ├── 1018T_combined_treat_pileup.bdg.bw
+        │   ├── 1018T_combined_treat_pileup.bdg.gz
+        │   ├── 1018T_combined_treat_pileup.bedclip.bdg.gz
+        │   ├── 1027Mono_control_lambda.bdg.gz
+        │   ├── 1027Mono_peaks.narrowPeak.gz
+        │   ├── 1027Mono_peaks.xls
+        │   ├── 1027Mono_treat_pileup.bdg.bw
+        │   ├── 1027Mono_treat_pileup.bdg.gz
+        │   ├── 1027Mono_treat_pileup.bedclip.bdg.gz
+        │   ├── 1027Mono_treat_pileup.bedclip_sort.bdg.gz
+        │   ├── 1027T_combined_control_lambda.bdg.gz
+        │   ├── 1027T_combined_peaks.narrowPeak.gz
+        │   ├── 1027T_combined_peaks.xls
+        │   ├── 1027T_combined_treat_pileup.bdg.bw
+        │   ├── 1027T_combined_treat_pileup.bdg.gz
+        │   ├── 1027T_combined_treat_pileup.bedclip.bdg.gz
+        │   ├── 1035Mono_control_lambda.bdg.gz
+        │   ├── 1035Mono_peaks.narrowPeak.gz
+        │   ├── 1035Mono_peaks.xls
+        │   ├── 1035Mono_treat_pileup.bdg.bw
+        │   ├── 1035Mono_treat_pileup.bdg.gz
+        │   ├── 1035Mono_treat_pileup.bedclip.bdg.gz
+        │   ├── 1035Mono_treat_pileup.bedclip_sort.bdg.gz
+        │   ├── 1035T_combined_control_lambda.bdg.gz
+        │   ├── 1035T_combined_peaks.narrowPeak.gz
+        │   ├── 1035T_combined_peaks.xls
+        │   ├── 1035T_combined_treat_pileup.bdg.bw
+        │   ├── 1035T_combined_treat_pileup.bdg.gz
+        │   ├── 1035T_combined_treat_pileup.bedclip.bdg.gz
+        │   ├── 1046Mono_control_lambda.bdg.gz
+        │   ├── 1046Mono_peaks.narrowPeak.gz
+        │   ├── 1046Mono_peaks.xls
+        │   ├── 1046Mono_treat_pileup.bdg.bw
+        │   ├── 1046Mono_treat_pileup.bdg.gz
+        │   ├── 1046Mono_treat_pileup.bedclip.bdg.gz
+        │   ├── 1046Mono_treat_pileup.bedclip_sort.bdg.gz
+        │   ├── 1046T_combined_control_lambda.bdg.gz
+        │   ├── 1046T_combined_peaks.narrowPeak.gz
+        │   ├── 1046T_combined_peaks.xls
+        │   ├── 1046T_combined_treat_pileup.bdg.bw
+        │   ├── 1046T_combined_treat_pileup.bdg.gz
+        │   ├── 1046T_combined_treat_pileup.bedclip.bdg.gz
+        │   ├── T_pooled_11B_control_lambda.bdg.gz
+        │   ├── T_pooled_11B_peaks.narrowPeak.gz
+        │   ├── T_pooled_11B_peaks.xls
+        │   ├── T_pooled_11B_treat_pileup.bdg.bw
+        │   ├── T_pooled_11B_treat_pileup.bdg.gz
+        │   └── T_pooled_11B_treat_pileup.bedclip.bdg.gz
+        ├── distiller-nf
+        │   ├── coolers_library
+        │   │   ├── 1018Mono.hg19.mapq_30.100.cool
+        │   │   ├── 1018Mono.hg19.mapq_30.100.mcool
+        │   │   ├── 1018Mono.hg19.no_filter.100.cool
+        │   │   ├── 1018Mono.hg19.no_filter.100.mcool
+        │   │   ├── 1018T.hg19.mapq_30.100.cool
+        │   │   ├── 1018T.hg19.mapq_30.100.mcool
+        │   │   ├── 1018T.hg19.no_filter.100.cool
+        │   │   ├── 1018T.hg19.no_filter.100.mcool
+        │   │   ├── 1027Mono.hg19.mapq_30.100.cool
+        │   │   ├── 1027Mono.hg19.mapq_30.100.mcool
+        │   │   ├── 1027Mono.hg19.no_filter.100.cool
+        │   │   ├── 1027Mono.hg19.no_filter.100.mcool
+        │   │   ├── 1027T.hg19.mapq_30.100.cool
+        │   │   ├── 1027T.hg19.mapq_30.100.mcool
+        │   │   ├── 1027T.hg19.no_filter.100.cool
+        │   │   ├── 1027T.hg19.no_filter.100.mcool
+        │   │   ├── 1035Mono.hg19.mapq_30.100.cool
+        │   │   ├── 1035Mono.hg19.mapq_30.100.mcool
+        │   │   ├── 1035Mono.hg19.no_filter.100.cool
+        │   │   ├── 1035Mono.hg19.no_filter.100.mcool
+        │   │   ├── 1035T.hg19.mapq_30.100.cool
+        │   │   ├── 1035T.hg19.mapq_30.100.mcool
+        │   │   ├── 1035T.hg19.no_filter.100.cool
+        │   │   ├── 1035T.hg19.no_filter.100.mcool
+        │   │   ├── 1046Mono.hg19.mapq_30.100.cool
+        │   │   ├── 1046Mono.hg19.mapq_30.100.mcool
+        │   │   ├── 1046Mono.hg19.no_filter.100.cool
+        │   │   ├── 1046Mono.hg19.no_filter.100.mcool
+        │   │   ├── 1046T.hg19.mapq_30.100.cool
+        │   │   ├── 1046T.hg19.mapq_30.100.mcool
+        │   │   ├── 1046T.hg19.no_filter.100.cool
+        │   │   └── 1046T.hg19.no_filter.100.mcool
+        │   ├── coolers_library_group
+        │   │   ├── Mono.hg19.mapq_30.100.cool
+        │   │   ├── Mono.hg19.mapq_30.100.mcool
+        │   │   ├── Mono.hg19.no_filter.100.cool
+        │   │   ├── Mono.hg19.no_filter.100.mcool
+        │   │   ├── T.hg19.mapq_30.100.cool
+        │   │   ├── T.hg19.mapq_30.100.mcool
+        │   │   ├── T.hg19.no_filter.100.cool
+        │   │   ├── T.hg19.no_filter.100.mcool
+        │   │   ├── all.hg19.mapq_30.100.cool
+        │   │   ├── all.hg19.mapq_30.100.mcool
+        │   │   ├── all.hg19.no_filter.100.cool
+        │   │   └── all.hg19.no_filter.100.mcool
+        │   ├── fastqc
+        │   │   ├── 1018Mono.lane1.01.1_fastqc.html
+        │   │   ├── 1018Mono.lane1.01.1_fastqc.zip
+        │   │   ├── 1018Mono.lane1.01.2_fastqc.html
+        │   │   ├── 1018Mono.lane1.01.2_fastqc.zip
+        │   │   ├── 1018Mono.lane1.02.1_fastqc.html
+        │   │   ├── 1018Mono.lane1.02.1_fastqc.zip
+        │   │   ├── 1018Mono.lane1.02.2_fastqc.html
+        │   │   ├── 1018Mono.lane1.02.2_fastqc.zip
+        │   │   ├── 1018Mono.lane1.03.1_fastqc.html
+        │   │   ├── 1018Mono.lane1.03.1_fastqc.zip
+        │   │   ├── 1018Mono.lane1.03.2_fastqc.html
+        │   │   ├── 1018Mono.lane1.03.2_fastqc.zip
+        │   │   ├── 1018Mono.lane2.01.1_fastqc.html
+        │   │   ├── 1018Mono.lane2.01.1_fastqc.zip
+        │   │   ├── 1018Mono.lane2.01.2_fastqc.html
+        │   │   ├── 1018Mono.lane2.01.2_fastqc.zip
+        │   │   ├── 1018Mono.lane2.02.1_fastqc.html
+        │   │   ├── 1018Mono.lane2.02.1_fastqc.zip
+        │   │   ├── 1018Mono.lane2.02.2_fastqc.html
+        │   │   ├── 1018Mono.lane2.02.2_fastqc.zip
+        │   │   ├── 1018Mono.lane2.03.1_fastqc.html
+        │   │   ├── 1018Mono.lane2.03.1_fastqc.zip
+        │   │   ├── 1018Mono.lane2.03.2_fastqc.html
+        │   │   ├── 1018Mono.lane2.03.2_fastqc.zip
+        │   │   ├── 1018Mono.lane3.01.1_fastqc.html
+        │   │   ├── 1018Mono.lane3.01.1_fastqc.zip
+        │   │   ├── 1018Mono.lane3.01.2_fastqc.html
+        │   │   ├── 1018Mono.lane3.01.2_fastqc.zip
+        │   │   ├── 1018Mono.lane3.02.1_fastqc.html
+        │   │   ├── 1018Mono.lane3.02.1_fastqc.zip
+        │   │   ├── 1018Mono.lane3.02.2_fastqc.html
+        │   │   ├── 1018Mono.lane3.02.2_fastqc.zip
+        │   │   ├── 1018Mono.lane3.03.1_fastqc.html
+        │   │   ├── 1018Mono.lane3.03.1_fastqc.zip
+        │   │   ├── 1018Mono.lane3.03.2_fastqc.html
+        │   │   ├── 1018Mono.lane3.03.2_fastqc.zip
+        │   │   ├── 1018T.lane1.01.1_fastqc.html
+        │   │   ├── 1018T.lane1.01.1_fastqc.zip
+        │   │   ├── 1018T.lane1.01.2_fastqc.html
+        │   │   ├── 1018T.lane1.01.2_fastqc.zip
+        │   │   ├── 1018T.lane1.02.1_fastqc.html
+        │   │   ├── 1018T.lane1.02.1_fastqc.zip
+        │   │   ├── 1018T.lane1.02.2_fastqc.html
+        │   │   ├── 1018T.lane1.02.2_fastqc.zip
+        │   │   ├── 1018T.lane2.01.1_fastqc.html
+        │   │   ├── 1018T.lane2.01.1_fastqc.zip
+        │   │   ├── 1018T.lane2.01.2_fastqc.html
+        │   │   ├── 1018T.lane2.01.2_fastqc.zip
+        │   │   ├── 1018T.lane2.02.1_fastqc.html
+        │   │   ├── 1018T.lane2.02.1_fastqc.zip
+        │   │   ├── 1018T.lane2.02.2_fastqc.html
+        │   │   ├── 1018T.lane2.02.2_fastqc.zip
+        │   │   ├── 1018T.lane3.01.1_fastqc.html
+        │   │   ├── 1018T.lane3.01.1_fastqc.zip
+        │   │   ├── 1018T.lane3.01.2_fastqc.html
+        │   │   ├── 1018T.lane3.01.2_fastqc.zip
+        │   │   ├── 1018T.lane3.02.1_fastqc.html
+        │   │   ├── 1018T.lane3.02.1_fastqc.zip
+        │   │   ├── 1018T.lane3.02.2_fastqc.html
+        │   │   ├── 1018T.lane3.02.2_fastqc.zip
+        │   │   ├── 1027Mono.lane1.01.1_fastqc.html
+        │   │   ├── 1027Mono.lane1.01.1_fastqc.zip
+        │   │   ├── 1027Mono.lane1.01.2_fastqc.html
+        │   │   ├── 1027Mono.lane1.01.2_fastqc.zip
+        │   │   ├── 1027Mono.lane1.02.1_fastqc.html
+        │   │   ├── 1027Mono.lane1.02.1_fastqc.zip
+        │   │   ├── 1027Mono.lane1.02.2_fastqc.html
+        │   │   ├── 1027Mono.lane1.02.2_fastqc.zip
+        │   │   ├── 1027Mono.lane1.03.1_fastqc.html
+        │   │   ├── 1027Mono.lane1.03.1_fastqc.zip
+        │   │   ├── 1027Mono.lane1.03.2_fastqc.html
+        │   │   ├── 1027Mono.lane1.03.2_fastqc.zip
+        │   │   ├── 1027Mono.lane2.01.1_fastqc.html
+        │   │   ├── 1027Mono.lane2.01.1_fastqc.zip
+        │   │   ├── 1027Mono.lane2.01.2_fastqc.html
+        │   │   ├── 1027Mono.lane2.01.2_fastqc.zip
+        │   │   ├── 1027Mono.lane2.02.1_fastqc.html
+        │   │   ├── 1027Mono.lane2.02.1_fastqc.zip
+        │   │   ├── 1027Mono.lane2.02.2_fastqc.html
+        │   │   ├── 1027Mono.lane2.02.2_fastqc.zip
+        │   │   ├── 1027Mono.lane2.03.1_fastqc.html
+        │   │   ├── 1027Mono.lane2.03.1_fastqc.zip
+        │   │   ├── 1027Mono.lane2.03.2_fastqc.html
+        │   │   ├── 1027Mono.lane2.03.2_fastqc.zip
+        │   │   ├── 1027Mono.lane3.01.1_fastqc.html
+        │   │   ├── 1027Mono.lane3.01.1_fastqc.zip
+        │   │   ├── 1027Mono.lane3.01.2_fastqc.html
+        │   │   ├── 1027Mono.lane3.01.2_fastqc.zip
+        │   │   ├── 1027Mono.lane3.02.1_fastqc.html
+        │   │   ├── 1027Mono.lane3.02.1_fastqc.zip
+        │   │   ├── 1027Mono.lane3.02.2_fastqc.html
+        │   │   ├── 1027Mono.lane3.02.2_fastqc.zip
+        │   │   ├── 1027Mono.lane3.03.1_fastqc.html
+        │   │   ├── 1027Mono.lane3.03.1_fastqc.zip
+        │   │   ├── 1027Mono.lane3.03.2_fastqc.html
+        │   │   ├── 1027Mono.lane3.03.2_fastqc.zip
+        │   │   ├── 1027T.lane1.01.1_fastqc.html
+        │   │   ├── 1027T.lane1.01.1_fastqc.zip
+        │   │   ├── 1027T.lane1.01.2_fastqc.html
+        │   │   ├── 1027T.lane1.01.2_fastqc.zip
+        │   │   ├── 1027T.lane1.02.1_fastqc.html
+        │   │   ├── 1027T.lane1.02.1_fastqc.zip
+        │   │   ├── 1027T.lane1.02.2_fastqc.html
+        │   │   ├── 1027T.lane1.02.2_fastqc.zip
+        │   │   ├── 1027T.lane2.01.1_fastqc.html
+        │   │   ├── 1027T.lane2.01.1_fastqc.zip
+        │   │   ├── 1027T.lane2.01.2_fastqc.html
+        │   │   ├── 1027T.lane2.01.2_fastqc.zip
+        │   │   ├── 1027T.lane2.02.1_fastqc.html
+        │   │   ├── 1027T.lane2.02.1_fastqc.zip
+        │   │   ├── 1027T.lane2.02.2_fastqc.html
+        │   │   ├── 1027T.lane2.02.2_fastqc.zip
+        │   │   ├── 1027T.lane3.01.1_fastqc.html
+        │   │   ├── 1027T.lane3.01.1_fastqc.zip
+        │   │   ├── 1027T.lane3.01.2_fastqc.html
+        │   │   ├── 1027T.lane3.01.2_fastqc.zip
+        │   │   ├── 1027T.lane3.02.1_fastqc.html
+        │   │   ├── 1027T.lane3.02.1_fastqc.zip
+        │   │   ├── 1027T.lane3.02.2_fastqc.html
+        │   │   ├── 1027T.lane3.02.2_fastqc.zip
+        │   │   ├── 1035Mono.lane1.01.1_fastqc.html
+        │   │   ├── 1035Mono.lane1.01.1_fastqc.zip
+        │   │   ├── 1035Mono.lane1.01.2_fastqc.html
+        │   │   ├── 1035Mono.lane1.01.2_fastqc.zip
+        │   │   ├── 1035Mono.lane1.02.1_fastqc.html
+        │   │   ├── 1035Mono.lane1.02.1_fastqc.zip
+        │   │   ├── 1035Mono.lane1.02.2_fastqc.html
+        │   │   ├── 1035Mono.lane1.02.2_fastqc.zip
+        │   │   ├── 1035Mono.lane1.03.1_fastqc.html
+        │   │   ├── 1035Mono.lane1.03.1_fastqc.zip
+        │   │   ├── 1035Mono.lane1.03.2_fastqc.html
+        │   │   ├── 1035Mono.lane1.03.2_fastqc.zip
+        │   │   ├── 1035Mono.lane2.01.1_fastqc.html
+        │   │   ├── 1035Mono.lane2.01.1_fastqc.zip
+        │   │   ├── 1035Mono.lane2.01.2_fastqc.html
+        │   │   ├── 1035Mono.lane2.01.2_fastqc.zip
+        │   │   ├── 1035Mono.lane2.02.1_fastqc.html
+        │   │   ├── 1035Mono.lane2.02.1_fastqc.zip
+        │   │   ├── 1035Mono.lane2.02.2_fastqc.html
+        │   │   ├── 1035Mono.lane2.02.2_fastqc.zip
+        │   │   ├── 1035Mono.lane2.03.1_fastqc.html
+        │   │   ├── 1035Mono.lane2.03.1_fastqc.zip
+        │   │   ├── 1035Mono.lane2.03.2_fastqc.html
+        │   │   ├── 1035Mono.lane2.03.2_fastqc.zip
+        │   │   ├── 1035Mono.lane3.01.1_fastqc.html
+        │   │   ├── 1035Mono.lane3.01.1_fastqc.zip
+        │   │   ├── 1035Mono.lane3.01.2_fastqc.html
+        │   │   ├── 1035Mono.lane3.01.2_fastqc.zip
+        │   │   ├── 1035Mono.lane3.02.1_fastqc.html
+        │   │   ├── 1035Mono.lane3.02.1_fastqc.zip
+        │   │   ├── 1035Mono.lane3.02.2_fastqc.html
+        │   │   ├── 1035Mono.lane3.02.2_fastqc.zip
+        │   │   ├── 1035Mono.lane3.03.1_fastqc.html
+        │   │   ├── 1035Mono.lane3.03.1_fastqc.zip
+        │   │   ├── 1035Mono.lane3.03.2_fastqc.html
+        │   │   ├── 1035Mono.lane3.03.2_fastqc.zip
+        │   │   ├── 1035T.lane1.01.1_fastqc.html
+        │   │   ├── 1035T.lane1.01.1_fastqc.zip
+        │   │   ├── 1035T.lane1.01.2_fastqc.html
+        │   │   ├── 1035T.lane1.01.2_fastqc.zip
+        │   │   ├── 1035T.lane1.02.1_fastqc.html
+        │   │   ├── 1035T.lane1.02.1_fastqc.zip
+        │   │   ├── 1035T.lane1.02.2_fastqc.html
+        │   │   ├── 1035T.lane1.02.2_fastqc.zip
+        │   │   ├── 1035T.lane1.03.1_fastqc.html
+        │   │   ├── 1035T.lane1.03.1_fastqc.zip
+        │   │   ├── 1035T.lane1.03.2_fastqc.html
+        │   │   ├── 1035T.lane1.03.2_fastqc.zip
+        │   │   ├── 1035T.lane2.01.1_fastqc.html
+        │   │   ├── 1035T.lane2.01.1_fastqc.zip
+        │   │   ├── 1035T.lane2.01.2_fastqc.html
+        │   │   ├── 1035T.lane2.01.2_fastqc.zip
+        │   │   ├── 1035T.lane2.02.1_fastqc.html
+        │   │   ├── 1035T.lane2.02.1_fastqc.zip
+        │   │   ├── 1035T.lane2.02.2_fastqc.html
+        │   │   ├── 1035T.lane2.02.2_fastqc.zip
+        │   │   ├── 1035T.lane2.03.1_fastqc.html
+        │   │   ├── 1035T.lane2.03.1_fastqc.zip
+        │   │   ├── 1035T.lane2.03.2_fastqc.html
+        │   │   ├── 1035T.lane2.03.2_fastqc.zip
+        │   │   ├── 1035T.lane3.01.1_fastqc.html
+        │   │   ├── 1035T.lane3.01.1_fastqc.zip
+        │   │   ├── 1035T.lane3.01.2_fastqc.html
+        │   │   ├── 1035T.lane3.01.2_fastqc.zip
+        │   │   ├── 1035T.lane3.02.1_fastqc.html
+        │   │   ├── 1035T.lane3.02.1_fastqc.zip
+        │   │   ├── 1035T.lane3.02.2_fastqc.html
+        │   │   ├── 1035T.lane3.02.2_fastqc.zip
+        │   │   ├── 1035T.lane3.03.1_fastqc.html
+        │   │   ├── 1035T.lane3.03.1_fastqc.zip
+        │   │   ├── 1035T.lane3.03.2_fastqc.html
+        │   │   ├── 1035T.lane3.03.2_fastqc.zip
+        │   │   ├── 1046Mono.lane1.01.1_fastqc.html
+        │   │   ├── 1046Mono.lane1.01.1_fastqc.zip
+        │   │   ├── 1046Mono.lane1.01.2_fastqc.html
+        │   │   ├── 1046Mono.lane1.01.2_fastqc.zip
+        │   │   ├── 1046Mono.lane1.02.1_fastqc.html
+        │   │   ├── 1046Mono.lane1.02.1_fastqc.zip
+        │   │   ├── 1046Mono.lane1.02.2_fastqc.html
+        │   │   ├── 1046Mono.lane1.02.2_fastqc.zip
+        │   │   ├── 1046Mono.lane1.03.1_fastqc.html
+        │   │   ├── 1046Mono.lane1.03.1_fastqc.zip
+        │   │   ├── 1046Mono.lane1.03.2_fastqc.html
+        │   │   ├── 1046Mono.lane1.03.2_fastqc.zip
+        │   │   ├── 1046Mono.lane2.01.1_fastqc.html
+        │   │   ├── 1046Mono.lane2.01.1_fastqc.zip
+        │   │   ├── 1046Mono.lane2.01.2_fastqc.html
+        │   │   ├── 1046Mono.lane2.01.2_fastqc.zip
+        │   │   ├── 1046Mono.lane2.02.1_fastqc.html
+        │   │   ├── 1046Mono.lane2.02.1_fastqc.zip
+        │   │   ├── 1046Mono.lane2.02.2_fastqc.html
+        │   │   ├── 1046Mono.lane2.02.2_fastqc.zip
+        │   │   ├── 1046Mono.lane2.03.1_fastqc.html
+        │   │   ├── 1046Mono.lane2.03.1_fastqc.zip
+        │   │   ├── 1046Mono.lane2.03.2_fastqc.html
+        │   │   ├── 1046Mono.lane2.03.2_fastqc.zip
+        │   │   ├── 1046Mono.lane3.01.1_fastqc.html
+        │   │   ├── 1046Mono.lane3.01.1_fastqc.zip
+        │   │   ├── 1046Mono.lane3.01.2_fastqc.html
+        │   │   ├── 1046Mono.lane3.01.2_fastqc.zip
+        │   │   ├── 1046Mono.lane3.02.1_fastqc.html
+        │   │   ├── 1046Mono.lane3.02.1_fastqc.zip
+        │   │   ├── 1046Mono.lane3.02.2_fastqc.html
+        │   │   ├── 1046Mono.lane3.02.2_fastqc.zip
+        │   │   ├── 1046Mono.lane3.03.1_fastqc.html
+        │   │   ├── 1046Mono.lane3.03.1_fastqc.zip
+        │   │   ├── 1046Mono.lane3.03.2_fastqc.html
+        │   │   ├── 1046Mono.lane3.03.2_fastqc.zip
+        │   │   ├── 1046T.lane1.01.1_fastqc.html
+        │   │   ├── 1046T.lane1.01.1_fastqc.zip
+        │   │   ├── 1046T.lane1.01.2_fastqc.html
+        │   │   ├── 1046T.lane1.01.2_fastqc.zip
+        │   │   ├── 1046T.lane1.02.1_fastqc.html
+        │   │   ├── 1046T.lane1.02.1_fastqc.zip
+        │   │   ├── 1046T.lane1.02.2_fastqc.html
+        │   │   ├── 1046T.lane1.02.2_fastqc.zip
+        │   │   ├── 1046T.lane2.01.1_fastqc.html
+        │   │   ├── 1046T.lane2.01.1_fastqc.zip
+        │   │   ├── 1046T.lane2.01.2_fastqc.html
+        │   │   ├── 1046T.lane2.01.2_fastqc.zip
+        │   │   ├── 1046T.lane2.02.1_fastqc.html
+        │   │   ├── 1046T.lane2.02.1_fastqc.zip
+        │   │   ├── 1046T.lane2.02.2_fastqc.html
+        │   │   ├── 1046T.lane2.02.2_fastqc.zip
+        │   │   ├── 1046T.lane3.01.1_fastqc.html
+        │   │   ├── 1046T.lane3.01.1_fastqc.zip
+        │   │   ├── 1046T.lane3.01.2_fastqc.html
+        │   │   ├── 1046T.lane3.01.2_fastqc.zip
+        │   │   ├── 1046T.lane3.02.1_fastqc.html
+        │   │   ├── 1046T.lane3.02.1_fastqc.zip
+        │   │   ├── 1046T.lane3.02.2_fastqc.html
+        │   │   └── 1046T.lane3.02.2_fastqc.zip
+        │   ├── mapped_parsed_sorted_chunks
+        │   │   ├── 1018Mono.lane1.hg19.01.bam
+        │   │   ├── 1018Mono.lane1.hg19.01.pairsam.gz
+        │   │   ├── 1018Mono.lane1.hg19.02.bam
+        │   │   ├── 1018Mono.lane1.hg19.02.pairsam.gz
+        │   │   ├── 1018Mono.lane1.hg19.03.bam
+        │   │   ├── 1018Mono.lane1.hg19.03.pairsam.gz
+        │   │   ├── 1018Mono.lane2.hg19.01.bam
+        │   │   ├── 1018Mono.lane2.hg19.01.pairsam.gz
+        │   │   ├── 1018Mono.lane2.hg19.02.bam
+        │   │   ├── 1018Mono.lane2.hg19.02.pairsam.gz
+        │   │   ├── 1018Mono.lane2.hg19.03.bam
+        │   │   ├── 1018Mono.lane2.hg19.03.pairsam.gz
+        │   │   ├── 1018Mono.lane3.hg19.01.bam
+        │   │   ├── 1018Mono.lane3.hg19.01.pairsam.gz
+        │   │   ├── 1018Mono.lane3.hg19.02.bam
+        │   │   ├── 1018Mono.lane3.hg19.02.pairsam.gz
+        │   │   ├── 1018Mono.lane3.hg19.03.bam
+        │   │   ├── 1018Mono.lane3.hg19.03.pairsam.gz
+        │   │   ├── 1018T.lane1.hg19.01.bam
+        │   │   ├── 1018T.lane1.hg19.01.pairsam.gz
+        │   │   ├── 1018T.lane1.hg19.02.bam
+        │   │   ├── 1018T.lane1.hg19.02.pairsam.gz
+        │   │   ├── 1018T.lane2.hg19.01.bam
+        │   │   ├── 1018T.lane2.hg19.01.pairsam.gz
+        │   │   ├── 1018T.lane2.hg19.02.bam
+        │   │   ├── 1018T.lane2.hg19.02.pairsam.gz
+        │   │   ├── 1018T.lane3.hg19.01.bam
+        │   │   ├── 1018T.lane3.hg19.01.pairsam.gz
+        │   │   ├── 1018T.lane3.hg19.02.bam
+        │   │   ├── 1018T.lane3.hg19.02.pairsam.gz
+        │   │   ├── 1027Mono.lane1.hg19.01.bam
+        │   │   ├── 1027Mono.lane1.hg19.01.pairsam.gz
+        │   │   ├── 1027Mono.lane1.hg19.02.bam
+        │   │   ├── 1027Mono.lane1.hg19.02.pairsam.gz
+        │   │   ├── 1027Mono.lane1.hg19.03.bam
+        │   │   ├── 1027Mono.lane1.hg19.03.pairsam.gz
+        │   │   ├── 1027Mono.lane2.hg19.01.bam
+        │   │   ├── 1027Mono.lane2.hg19.01.pairsam.gz
+        │   │   ├── 1027Mono.lane2.hg19.02.bam
+        │   │   ├── 1027Mono.lane2.hg19.02.pairsam.gz
+        │   │   ├── 1027Mono.lane2.hg19.03.bam
+        │   │   ├── 1027Mono.lane2.hg19.03.pairsam.gz
+        │   │   ├── 1027Mono.lane3.hg19.01.bam
+        │   │   ├── 1027Mono.lane3.hg19.01.pairsam.gz
+        │   │   ├── 1027Mono.lane3.hg19.02.bam
+        │   │   ├── 1027Mono.lane3.hg19.02.pairsam.gz
+        │   │   ├── 1027Mono.lane3.hg19.03.bam
+        │   │   ├── 1027Mono.lane3.hg19.03.pairsam.gz
+        │   │   ├── 1027T.lane1.hg19.01.bam
+        │   │   ├── 1027T.lane1.hg19.01.pairsam.gz
+        │   │   ├── 1027T.lane1.hg19.02.bam
+        │   │   ├── 1027T.lane1.hg19.02.pairsam.gz
+        │   │   ├── 1027T.lane2.hg19.01.bam
+        │   │   ├── 1027T.lane2.hg19.01.pairsam.gz
+        │   │   ├── 1027T.lane2.hg19.02.bam
+        │   │   ├── 1027T.lane2.hg19.02.pairsam.gz
+        │   │   ├── 1027T.lane3.hg19.01.bam
+        │   │   ├── 1027T.lane3.hg19.01.pairsam.gz
+        │   │   ├── 1027T.lane3.hg19.02.bam
+        │   │   ├── 1027T.lane3.hg19.02.pairsam.gz
+        │   │   ├── 1035Mono.lane1.hg19.01.bam
+        │   │   ├── 1035Mono.lane1.hg19.01.pairsam.gz
+        │   │   ├── 1035Mono.lane1.hg19.02.bam
+        │   │   ├── 1035Mono.lane1.hg19.02.pairsam.gz
+        │   │   ├── 1035Mono.lane1.hg19.03.bam
+        │   │   ├── 1035Mono.lane1.hg19.03.pairsam.gz
+        │   │   ├── 1035Mono.lane2.hg19.01.bam
+        │   │   ├── 1035Mono.lane2.hg19.01.pairsam.gz
+        │   │   ├── 1035Mono.lane2.hg19.02.bam
+        │   │   ├── 1035Mono.lane2.hg19.02.pairsam.gz
+        │   │   ├── 1035Mono.lane2.hg19.03.bam
+        │   │   ├── 1035Mono.lane2.hg19.03.pairsam.gz
+        │   │   ├── 1035Mono.lane3.hg19.01.bam
+        │   │   ├── 1035Mono.lane3.hg19.01.pairsam.gz
+        │   │   ├── 1035Mono.lane3.hg19.02.bam
+        │   │   ├── 1035Mono.lane3.hg19.02.pairsam.gz
+        │   │   ├── 1035Mono.lane3.hg19.03.bam
+        │   │   ├── 1035Mono.lane3.hg19.03.pairsam.gz
+        │   │   ├── 1035T.lane1.hg19.01.bam
+        │   │   ├── 1035T.lane1.hg19.01.pairsam.gz
+        │   │   ├── 1035T.lane1.hg19.02.bam
+        │   │   ├── 1035T.lane1.hg19.02.pairsam.gz
+        │   │   ├── 1035T.lane1.hg19.03.bam
+        │   │   ├── 1035T.lane1.hg19.03.pairsam.gz
+        │   │   ├── 1035T.lane2.hg19.01.bam
+        │   │   ├── 1035T.lane2.hg19.01.pairsam.gz
+        │   │   ├── 1035T.lane2.hg19.02.bam
+        │   │   ├── 1035T.lane2.hg19.02.pairsam.gz
+        │   │   ├── 1035T.lane2.hg19.03.bam
+        │   │   ├── 1035T.lane2.hg19.03.pairsam.gz
+        │   │   ├── 1035T.lane3.hg19.01.bam
+        │   │   ├── 1035T.lane3.hg19.01.pairsam.gz
+        │   │   ├── 1035T.lane3.hg19.02.bam
+        │   │   ├── 1035T.lane3.hg19.02.pairsam.gz
+        │   │   ├── 1035T.lane3.hg19.03.bam
+        │   │   ├── 1035T.lane3.hg19.03.pairsam.gz
+        │   │   ├── 1046Mono.lane1.hg19.01.bam
+        │   │   ├── 1046Mono.lane1.hg19.01.pairsam.gz
+        │   │   ├── 1046Mono.lane1.hg19.02.bam
+        │   │   ├── 1046Mono.lane1.hg19.02.pairsam.gz
+        │   │   ├── 1046Mono.lane1.hg19.03.bam
+        │   │   ├── 1046Mono.lane1.hg19.03.pairsam.gz
+        │   │   ├── 1046Mono.lane2.hg19.01.bam
+        │   │   ├── 1046Mono.lane2.hg19.01.pairsam.gz
+        │   │   ├── 1046Mono.lane2.hg19.02.bam
+        │   │   ├── 1046Mono.lane2.hg19.02.pairsam.gz
+        │   │   ├── 1046Mono.lane2.hg19.03.bam
+        │   │   ├── 1046Mono.lane2.hg19.03.pairsam.gz
+        │   │   ├── 1046Mono.lane3.hg19.01.bam
+        │   │   ├── 1046Mono.lane3.hg19.01.pairsam.gz
+        │   │   ├── 1046Mono.lane3.hg19.02.bam
+        │   │   ├── 1046Mono.lane3.hg19.02.pairsam.gz
+        │   │   ├── 1046Mono.lane3.hg19.03.bam
+        │   │   ├── 1046Mono.lane3.hg19.03.pairsam.gz
+        │   │   ├── 1046T.lane1.hg19.01.bam
+        │   │   ├── 1046T.lane1.hg19.01.pairsam.gz
+        │   │   ├── 1046T.lane1.hg19.02.bam
+        │   │   ├── 1046T.lane1.hg19.02.pairsam.gz
+        │   │   ├── 1046T.lane2.hg19.01.bam
+        │   │   ├── 1046T.lane2.hg19.01.pairsam.gz
+        │   │   ├── 1046T.lane2.hg19.02.bam
+        │   │   ├── 1046T.lane2.hg19.02.pairsam.gz
+        │   │   ├── 1046T.lane3.hg19.01.bam
+        │   │   ├── 1046T.lane3.hg19.01.pairsam.gz
+        │   │   ├── 1046T.lane3.hg19.02.bam
+        │   │   └── 1046T.lane3.hg19.02.pairsam.gz
+        │   ├── pairs_library
+        │   │   ├── 1018Mono.hg19.dedup.stats
+        │   │   ├── 1018Mono.hg19.dups.bam
+        │   │   ├── 1018Mono.hg19.dups.bam.stats
+        │   │   ├── 1018Mono.hg19.dups.pairs.gz
+        │   │   ├── 1018Mono.hg19.nodups.bam
+        │   │   ├── 1018Mono.hg19.nodups.bam.stats
+        │   │   ├── 1018Mono.hg19.nodups.pairs.gz
+        │   │   ├── 1018Mono.hg19.nodups.pairs.gz.px2
+        │   │   ├── 1018Mono.hg19.unmapped.bam
+        │   │   ├── 1018Mono.hg19.unmapped.bam.stats
+        │   │   ├── 1018Mono.hg19.unmapped.pairs.gz
+        │   │   ├── 1018T.hg19.dedup.stats
+        │   │   ├── 1018T.hg19.dups.bam
+        │   │   ├── 1018T.hg19.dups.bam.stats
+        │   │   ├── 1018T.hg19.dups.pairs.gz
+        │   │   ├── 1018T.hg19.nodups.bam
+        │   │   ├── 1018T.hg19.nodups.bam.stats
+        │   │   ├── 1018T.hg19.nodups.pairs.gz
+        │   │   ├── 1018T.hg19.nodups.pairs.gz.px2
+        │   │   ├── 1018T.hg19.unmapped.bam
+        │   │   ├── 1018T.hg19.unmapped.bam.stats
+        │   │   ├── 1018T.hg19.unmapped.pairs.gz
+        │   │   ├── 1027Mono.hg19.dedup.stats
+        │   │   ├── 1027Mono.hg19.dups.bam
+        │   │   ├── 1027Mono.hg19.dups.bam.stats
+        │   │   ├── 1027Mono.hg19.dups.pairs.gz
+        │   │   ├── 1027Mono.hg19.nodups.bam
+        │   │   ├── 1027Mono.hg19.nodups.bam.stats
+        │   │   ├── 1027Mono.hg19.nodups.pairs.gz
+        │   │   ├── 1027Mono.hg19.nodups.pairs.gz.px2
+        │   │   ├── 1027Mono.hg19.unmapped.bam
+        │   │   ├── 1027Mono.hg19.unmapped.bam.stats
+        │   │   ├── 1027Mono.hg19.unmapped.pairs.gz
+        │   │   ├── 1027T.hg19.dedup.stats
+        │   │   ├── 1027T.hg19.dups.bam
+        │   │   ├── 1027T.hg19.dups.bam.stats
+        │   │   ├── 1027T.hg19.dups.pairs.gz
+        │   │   ├── 1027T.hg19.nodups.bam
+        │   │   ├── 1027T.hg19.nodups.bam.stats
+        │   │   ├── 1027T.hg19.nodups.pairs.gz
+        │   │   ├── 1027T.hg19.nodups.pairs.gz.px2
+        │   │   ├── 1027T.hg19.unmapped.bam
+        │   │   ├── 1027T.hg19.unmapped.bam.stats
+        │   │   ├── 1027T.hg19.unmapped.pairs.gz
+        │   │   ├── 1035Mono.hg19.dedup.stats
+        │   │   ├── 1035Mono.hg19.dups.bam
+        │   │   ├── 1035Mono.hg19.dups.bam.stats
+        │   │   ├── 1035Mono.hg19.dups.pairs.gz
+        │   │   ├── 1035Mono.hg19.nodups.bam
+        │   │   ├── 1035Mono.hg19.nodups.bam.stats
+        │   │   ├── 1035Mono.hg19.nodups.pairs.gz
+        │   │   ├── 1035Mono.hg19.nodups.pairs.gz.px2
+        │   │   ├── 1035Mono.hg19.unmapped.bam
+        │   │   ├── 1035Mono.hg19.unmapped.bam.stats
+        │   │   ├── 1035Mono.hg19.unmapped.pairs.gz
+        │   │   ├── 1035T.hg19.dedup.stats
+        │   │   ├── 1035T.hg19.dups.bam
+        │   │   ├── 1035T.hg19.dups.bam.stats
+        │   │   ├── 1035T.hg19.dups.pairs.gz
+        │   │   ├── 1035T.hg19.nodups.bam
+        │   │   ├── 1035T.hg19.nodups.bam.stats
+        │   │   ├── 1035T.hg19.nodups.pairs.gz
+        │   │   ├── 1035T.hg19.nodups.pairs.gz.px2
+        │   │   ├── 1035T.hg19.unmapped.bam
+        │   │   ├── 1035T.hg19.unmapped.bam.stats
+        │   │   ├── 1035T.hg19.unmapped.pairs.gz
+        │   │   ├── 1046Mono.hg19.dedup.stats
+        │   │   ├── 1046Mono.hg19.dups.bam
+        │   │   ├── 1046Mono.hg19.dups.bam.stats
+        │   │   ├── 1046Mono.hg19.dups.pairs.gz
+        │   │   ├── 1046Mono.hg19.nodups.bam
+        │   │   ├── 1046Mono.hg19.nodups.bam.stats
+        │   │   ├── 1046Mono.hg19.nodups.pairs.gz
+        │   │   ├── 1046Mono.hg19.nodups.pairs.gz.px2
+        │   │   ├── 1046Mono.hg19.unmapped.bam
+        │   │   ├── 1046Mono.hg19.unmapped.bam.stats
+        │   │   ├── 1046Mono.hg19.unmapped.pairs.gz
+        │   │   ├── 1046T.hg19.dedup.stats
+        │   │   ├── 1046T.hg19.dups.bam
+        │   │   ├── 1046T.hg19.dups.bam.stats
+        │   │   ├── 1046T.hg19.dups.pairs.gz
+        │   │   ├── 1046T.hg19.nodups.bam
+        │   │   ├── 1046T.hg19.nodups.bam.stats
+        │   │   ├── 1046T.hg19.nodups.pairs.gz
+        │   │   ├── 1046T.hg19.nodups.pairs.gz.px2
+        │   │   ├── 1046T.hg19.unmapped.bam
+        │   │   ├── 1046T.hg19.unmapped.bam.stats
+        │   │   ├── 1046T.hg19.unmapped.pairs.gz
+        │   │   ├── multiqc_data
+        │   │   │   ├── multiqc.log
+        │   │   │   ├── multiqc_data.json
+        │   │   │   ├── multiqc_general_stats.txt
+        │   │   │   ├── multiqc_samtools_stats.txt
+        │   │   │   └── multiqc_sources.txt
+        │   │   └── multiqc_report.html
+        │   ├── processed_fastqs
+        │   │   ├── 1018Mono.lane1.01.1.fastq.gz
+        │   │   ├── 1018Mono.lane1.01.2.fastq.gz
+        │   │   ├── 1018Mono.lane1.02.1.fastq.gz
+        │   │   ├── 1018Mono.lane1.02.2.fastq.gz
+        │   │   ├── 1018Mono.lane1.03.1.fastq.gz
+        │   │   ├── 1018Mono.lane1.03.2.fastq.gz
+        │   │   ├── 1018Mono.lane2.01.1.fastq.gz
+        │   │   ├── 1018Mono.lane2.01.2.fastq.gz
+        │   │   ├── 1018Mono.lane2.02.1.fastq.gz
+        │   │   ├── 1018Mono.lane2.02.2.fastq.gz
+        │   │   ├── 1018Mono.lane2.03.1.fastq.gz
+        │   │   ├── 1018Mono.lane2.03.2.fastq.gz
+        │   │   ├── 1018Mono.lane3.01.1.fastq.gz
+        │   │   ├── 1018Mono.lane3.01.2.fastq.gz
+        │   │   ├── 1018Mono.lane3.02.1.fastq.gz
+        │   │   ├── 1018Mono.lane3.02.2.fastq.gz
+        │   │   ├── 1018Mono.lane3.03.1.fastq.gz
+        │   │   ├── 1018Mono.lane3.03.2.fastq.gz
+        │   │   ├── 1018T.lane1.01.1.fastq.gz
+        │   │   ├── 1018T.lane1.01.2.fastq.gz
+        │   │   ├── 1018T.lane1.02.1.fastq.gz
+        │   │   ├── 1018T.lane1.02.2.fastq.gz
+        │   │   ├── 1018T.lane2.01.1.fastq.gz
+        │   │   ├── 1018T.lane2.01.2.fastq.gz
+        │   │   ├── 1018T.lane2.02.1.fastq.gz
+        │   │   ├── 1018T.lane2.02.2.fastq.gz
+        │   │   ├── 1018T.lane3.01.1.fastq.gz
+        │   │   ├── 1018T.lane3.01.2.fastq.gz
+        │   │   ├── 1018T.lane3.02.1.fastq.gz
+        │   │   ├── 1018T.lane3.02.2.fastq.gz
+        │   │   ├── 1027Mono.lane1.01.1.fastq.gz
+        │   │   ├── 1027Mono.lane1.01.2.fastq.gz
+        │   │   ├── 1027Mono.lane1.02.1.fastq.gz
+        │   │   ├── 1027Mono.lane1.02.2.fastq.gz
+        │   │   ├── 1027Mono.lane1.03.1.fastq.gz
+        │   │   ├── 1027Mono.lane1.03.2.fastq.gz
+        │   │   ├── 1027Mono.lane2.01.1.fastq.gz
+        │   │   ├── 1027Mono.lane2.01.2.fastq.gz
+        │   │   ├── 1027Mono.lane2.02.1.fastq.gz
+        │   │   ├── 1027Mono.lane2.02.2.fastq.gz
+        │   │   ├── 1027Mono.lane2.03.1.fastq.gz
+        │   │   ├── 1027Mono.lane2.03.2.fastq.gz
+        │   │   ├── 1027Mono.lane3.01.1.fastq.gz
+        │   │   ├── 1027Mono.lane3.01.2.fastq.gz
+        │   │   ├── 1027Mono.lane3.02.1.fastq.gz
+        │   │   ├── 1027Mono.lane3.02.2.fastq.gz
+        │   │   ├── 1027Mono.lane3.03.1.fastq.gz
+        │   │   ├── 1027Mono.lane3.03.2.fastq.gz
+        │   │   ├── 1027T.lane1.01.1.fastq.gz
+        │   │   ├── 1027T.lane1.01.2.fastq.gz
+        │   │   ├── 1027T.lane1.02.1.fastq.gz
+        │   │   ├── 1027T.lane1.02.2.fastq.gz
+        │   │   ├── 1027T.lane2.01.1.fastq.gz
+        │   │   ├── 1027T.lane2.01.2.fastq.gz
+        │   │   ├── 1027T.lane2.02.1.fastq.gz
+        │   │   ├── 1027T.lane2.02.2.fastq.gz
+        │   │   ├── 1027T.lane3.01.1.fastq.gz
+        │   │   ├── 1027T.lane3.01.2.fastq.gz
+        │   │   ├── 1027T.lane3.02.1.fastq.gz
+        │   │   ├── 1027T.lane3.02.2.fastq.gz
+        │   │   ├── 1035Mono.lane1.01.1.fastq.gz
+        │   │   ├── 1035Mono.lane1.01.2.fastq.gz
+        │   │   ├── 1035Mono.lane1.02.1.fastq.gz
+        │   │   ├── 1035Mono.lane1.02.2.fastq.gz
+        │   │   ├── 1035Mono.lane1.03.1.fastq.gz
+        │   │   ├── 1035Mono.lane1.03.2.fastq.gz
+        │   │   ├── 1035Mono.lane2.01.1.fastq.gz
+        │   │   ├── 1035Mono.lane2.01.2.fastq.gz
+        │   │   ├── 1035Mono.lane2.02.1.fastq.gz
+        │   │   ├── 1035Mono.lane2.02.2.fastq.gz
+        │   │   ├── 1035Mono.lane2.03.1.fastq.gz
+        │   │   ├── 1035Mono.lane2.03.2.fastq.gz
+        │   │   ├── 1035Mono.lane3.01.1.fastq.gz
+        │   │   ├── 1035Mono.lane3.01.2.fastq.gz
+        │   │   ├── 1035Mono.lane3.02.1.fastq.gz
+        │   │   ├── 1035Mono.lane3.02.2.fastq.gz
+        │   │   ├── 1035Mono.lane3.03.1.fastq.gz
+        │   │   ├── 1035Mono.lane3.03.2.fastq.gz
+        │   │   ├── 1035T.lane1.01.1.fastq.gz
+        │   │   ├── 1035T.lane1.01.2.fastq.gz
+        │   │   ├── 1035T.lane1.02.1.fastq.gz
+        │   │   ├── 1035T.lane1.02.2.fastq.gz
+        │   │   ├── 1035T.lane1.03.1.fastq.gz
+        │   │   ├── 1035T.lane1.03.2.fastq.gz
+        │   │   ├── 1035T.lane2.01.1.fastq.gz
+        │   │   ├── 1035T.lane2.01.2.fastq.gz
+        │   │   ├── 1035T.lane2.02.1.fastq.gz
+        │   │   ├── 1035T.lane2.02.2.fastq.gz
+        │   │   ├── 1035T.lane2.03.1.fastq.gz
+        │   │   ├── 1035T.lane2.03.2.fastq.gz
+        │   │   ├── 1035T.lane3.01.1.fastq.gz
+        │   │   ├── 1035T.lane3.01.2.fastq.gz
+        │   │   ├── 1035T.lane3.02.1.fastq.gz
+        │   │   ├── 1035T.lane3.02.2.fastq.gz
+        │   │   ├── 1035T.lane3.03.1.fastq.gz
+        │   │   ├── 1035T.lane3.03.2.fastq.gz
+        │   │   ├── 1046Mono.lane1.01.1.fastq.gz
+        │   │   ├── 1046Mono.lane1.01.2.fastq.gz
+        │   │   ├── 1046Mono.lane1.02.1.fastq.gz
+        │   │   ├── 1046Mono.lane1.02.2.fastq.gz
+        │   │   ├── 1046Mono.lane1.03.1.fastq.gz
+        │   │   ├── 1046Mono.lane1.03.2.fastq.gz
+        │   │   ├── 1046Mono.lane2.01.1.fastq.gz
+        │   │   ├── 1046Mono.lane2.01.2.fastq.gz
+        │   │   ├── 1046Mono.lane2.02.1.fastq.gz
+        │   │   ├── 1046Mono.lane2.02.2.fastq.gz
+        │   │   ├── 1046Mono.lane2.03.1.fastq.gz
+        │   │   ├── 1046Mono.lane2.03.2.fastq.gz
+        │   │   ├── 1046Mono.lane3.01.1.fastq.gz
+        │   │   ├── 1046Mono.lane3.01.2.fastq.gz
+        │   │   ├── 1046Mono.lane3.02.1.fastq.gz
+        │   │   ├── 1046Mono.lane3.02.2.fastq.gz
+        │   │   ├── 1046Mono.lane3.03.1.fastq.gz
+        │   │   ├── 1046Mono.lane3.03.2.fastq.gz
+        │   │   ├── 1046T.lane1.01.1.fastq.gz
+        │   │   ├── 1046T.lane1.01.2.fastq.gz
+        │   │   ├── 1046T.lane1.02.1.fastq.gz
+        │   │   ├── 1046T.lane1.02.2.fastq.gz
+        │   │   ├── 1046T.lane2.01.1.fastq.gz
+        │   │   ├── 1046T.lane2.01.2.fastq.gz
+        │   │   ├── 1046T.lane2.02.1.fastq.gz
+        │   │   ├── 1046T.lane2.02.2.fastq.gz
+        │   │   ├── 1046T.lane3.01.1.fastq.gz
+        │   │   ├── 1046T.lane3.01.2.fastq.gz
+        │   │   ├── 1046T.lane3.02.1.fastq.gz
+        │   │   └── 1046T.lane3.02.2.fastq.gz
+        │   └── stats_library_group
+        │       ├── Mono.hg19.stats
+        │       ├── T.hg19.stats
+        │       └── all.hg19.stats
+        ├── featureCounts.tar.gz
+        ├── gatk
+        │   ├── 1018Mono_combined.g.vcf.gz
+        │   ├── 1018Mono_combined.g.vcf.gz.tbi
+        │   ├── 1018Mono_combined.genotype.rsid.snpEff.genes.txt.gz
+        │   ├── 1018Mono_combined.genotype.rsid.snpEff.html
+        │   ├── 1018Mono_combined.genotype.rsid.vcf.gz
+        │   ├── 1018Mono_combined.genotype.rsid.vcf.gz.tbi
+        │   ├── 1018Mono_combined.genotype.vcf.gz
+        │   ├── 1018Mono_combined.genotype.vcf.gz.tbi
+        │   ├── 1018Mono_combined.plots.R
+        │   ├── 1018Mono_combined.recal
+        │   ├── 1018Mono_combined.recal.idx
+        │   ├── 1018Mono_combined.recal.vcf.gz.tbi
+        │   ├── 1018Mono_combined.rsid_only.snpEff.genes.txt.gz
+        │   ├── 1018Mono_combined.rsid_only.snpEff.html
+        │   ├── 1018Mono_combined.rsid_only.vcf.gz
+        │   ├── 1018Mono_combined.rsid_only.vcf.gz.tbi
+        │   ├── 1018Mono_combined.tranches
+        │   ├── 1018T_combined.g.vcf.gz
+        │   ├── 1018T_combined.g.vcf.gz.tbi
+        │   ├── 1018T_combined.genotype.rsid.snpEff.genes.txt.gz
+        │   ├── 1018T_combined.genotype.rsid.snpEff.html
+        │   ├── 1018T_combined.genotype.rsid.vcf.gz
+        │   ├── 1018T_combined.genotype.rsid.vcf.gz.tbi
+        │   ├── 1018T_combined.genotype.vcf.gz
+        │   ├── 1018T_combined.genotype.vcf.gz.tbi
+        │   ├── 1018T_combined.plots.R
+        │   ├── 1018T_combined.recal
+        │   ├── 1018T_combined.recal.idx
+        │   ├── 1018T_combined.recal.vcf.gz.tbi
+        │   ├── 1018T_combined.rsid_only.fam
+        │   ├── 1018T_combined.rsid_only.log
+        │   ├── 1018T_combined.rsid_only.snpEff.genes.txt
+        │   ├── 1018T_combined.rsid_only.snpEff.genes.txt.gz
+        │   ├── 1018T_combined.rsid_only.snpEff.html
+        │   ├── 1018T_combined.rsid_only.vcf.gz
+        │   ├── 1018T_combined.rsid_only.vcf.gz.tbi
+        │   ├── 1018T_combined.tranches
+        │   ├── 1027Mono_combined.g.vcf.gz
+        │   ├── 1027Mono_combined.g.vcf.gz.tbi
+        │   ├── 1027Mono_combined.genotype.rsid.snpEff.genes.txt.gz
+        │   ├── 1027Mono_combined.genotype.rsid.snpEff.html
+        │   ├── 1027Mono_combined.genotype.rsid.vcf.gz
+        │   ├── 1027Mono_combined.genotype.rsid.vcf.gz.tbi
+        │   ├── 1027Mono_combined.genotype.vcf.gz
+        │   ├── 1027Mono_combined.genotype.vcf.gz.tbi
+        │   ├── 1027Mono_combined.plots.R
+        │   ├── 1027Mono_combined.recal
+        │   ├── 1027Mono_combined.recal.idx
+        │   ├── 1027Mono_combined.recal.vcf.gz.tbi
+        │   ├── 1027Mono_combined.rsid_only.snpEff.genes.txt.gz
+        │   ├── 1027Mono_combined.rsid_only.snpEff.html
+        │   ├── 1027Mono_combined.rsid_only.vcf.gz
+        │   ├── 1027Mono_combined.rsid_only.vcf.gz.tbi
+        │   ├── 1027Mono_combined.tranches
+        │   ├── 1027T_combined.g.vcf.gz
+        │   ├── 1027T_combined.g.vcf.gz.tbi
+        │   ├── 1027T_combined.genotype.rsid.snpEff.genes.txt.gz
+        │   ├── 1027T_combined.genotype.rsid.snpEff.html
+        │   ├── 1027T_combined.genotype.rsid.vcf.gz
+        │   ├── 1027T_combined.genotype.rsid.vcf.gz.tbi
+        │   ├── 1027T_combined.genotype.vcf.gz
+        │   ├── 1027T_combined.genotype.vcf.gz.tbi
+        │   ├── 1027T_combined.plots.R
+        │   ├── 1027T_combined.recal
+        │   ├── 1027T_combined.recal.idx
+        │   ├── 1027T_combined.recal.vcf.gz.tbi
+        │   ├── 1027T_combined.rsid_only.snpEff.genes.txt.gz
+        │   ├── 1027T_combined.rsid_only.snpEff.html
+        │   ├── 1027T_combined.rsid_only.vcf.gz
+        │   ├── 1027T_combined.rsid_only.vcf.gz.tbi
+        │   ├── 1027T_combined.tranches
+        │   ├── 1035Mono_combined.g.vcf.gz
+        │   ├── 1035Mono_combined.g.vcf.gz.tbi
+        │   ├── 1035Mono_combined.genotype.rsid.snpEff.genes.txt.gz
+        │   ├── 1035Mono_combined.genotype.rsid.snpEff.html
+        │   ├── 1035Mono_combined.genotype.rsid.vcf.gz
+        │   ├── 1035Mono_combined.genotype.rsid.vcf.gz.tbi
+        │   ├── 1035Mono_combined.genotype.vcf.gz
+        │   ├── 1035Mono_combined.genotype.vcf.gz.tbi
+        │   ├── 1035Mono_combined.plots.R
+        │   ├── 1035Mono_combined.recal
+        │   ├── 1035Mono_combined.recal.idx
+        │   ├── 1035Mono_combined.recal.vcf.gz.tbi
+        │   ├── 1035Mono_combined.rsid_only.snpEff.genes.txt.gz
+        │   ├── 1035Mono_combined.rsid_only.snpEff.html
+        │   ├── 1035Mono_combined.rsid_only.vcf.gz
+        │   ├── 1035Mono_combined.rsid_only.vcf.gz.tbi
+        │   ├── 1035Mono_combined.tranches
+        │   ├── 1035T_combined.g.vcf.gz
+        │   ├── 1035T_combined.g.vcf.gz.tbi
+        │   ├── 1035T_combined.genotype.rsid.snpEff.genes.txt.gz
+        │   ├── 1035T_combined.genotype.rsid.snpEff.html
+        │   ├── 1035T_combined.genotype.rsid.vcf.gz
+        │   ├── 1035T_combined.genotype.rsid.vcf.gz.tbi
+        │   ├── 1035T_combined.genotype.vcf.gz
+        │   ├── 1035T_combined.genotype.vcf.gz.tbi
+        │   ├── 1035T_combined.plots.R
+        │   ├── 1035T_combined.recal
+        │   ├── 1035T_combined.recal.idx
+        │   ├── 1035T_combined.recal.vcf.gz.tbi
+        │   ├── 1035T_combined.rsid_only.snpEff.genes.txt.gz
+        │   ├── 1035T_combined.rsid_only.snpEff.html
+        │   ├── 1035T_combined.rsid_only.vcf.gz
+        │   ├── 1035T_combined.rsid_only.vcf.gz.tbi
+        │   ├── 1035T_combined.tranches
+        │   ├── 1046Mono_combined.g.vcf.gz
+        │   ├── 1046Mono_combined.g.vcf.gz.tbi
+        │   ├── 1046Mono_combined.genotype.rsid.snpEff.genes.txt.gz
+        │   ├── 1046Mono_combined.genotype.rsid.snpEff.html
+        │   ├── 1046Mono_combined.genotype.rsid.vcf.gz
+        │   ├── 1046Mono_combined.genotype.rsid.vcf.gz.tbi
+        │   ├── 1046Mono_combined.genotype.vcf.gz
+        │   ├── 1046Mono_combined.genotype.vcf.gz.tbi
+        │   ├── 1046Mono_combined.plots.R
+        │   ├── 1046Mono_combined.recal
+        │   ├── 1046Mono_combined.recal.idx
+        │   ├── 1046Mono_combined.recal.vcf.gz.tbi
+        │   ├── 1046Mono_combined.rsid_only.snpEff.genes.txt.gz
+        │   ├── 1046Mono_combined.rsid_only.snpEff.html
+        │   ├── 1046Mono_combined.rsid_only.vcf.gz
+        │   ├── 1046Mono_combined.rsid_only.vcf.gz.tbi
+        │   ├── 1046Mono_combined.tranches
+        │   ├── 1046T_combined.g.vcf.gz
+        │   ├── 1046T_combined.g.vcf.gz.tbi
+        │   ├── 1046T_combined.genotype.rsid.snpEff.genes.txt.gz
+        │   ├── 1046T_combined.genotype.rsid.snpEff.html
+        │   ├── 1046T_combined.genotype.rsid.vcf.gz
+        │   ├── 1046T_combined.genotype.rsid.vcf.gz.tbi
+        │   ├── 1046T_combined.genotype.vcf.gz
+        │   ├── 1046T_combined.genotype.vcf.gz.tbi
+        │   ├── 1046T_combined.plots.R
+        │   ├── 1046T_combined.recal
+        │   ├── 1046T_combined.recal.idx
+        │   ├── 1046T_combined.recal.vcf.gz.tbi
+        │   ├── 1046T_combined.rsid_only.vcf.gz
+        │   ├── 1046T_combined.rsid_only.vcf.gz.tbi
+        │   ├── 1046T_combined.tranches
+        │   ├── T_merged.rsid.genotypes.bed.gz
+        │   ├── T_merged.rsid_only.vcf.gz
+        │   └── snpEff
+        │       ├── 1018Mono_combined.genotype.rsid.snpeff.vcf
+        │       ├── 1018Mono_combined.rsid_only.snpeff.vcf
+        │       ├── 1018T_combined.genotype.rsid.snpeff.vcf
+        │       ├── 1018T_combined.rsid_only.snpeff.vcf
+        │       ├── 1027Mono_combined.genotype.rsid.snpeff.vcf
+        │       ├── 1027Mono_combined.rsid_only.snpeff.vcf
+        │       ├── 1027T_combined.genotype.rsid.snpeff.vcf
+        │       ├── 1027T_combined.rsid_only.snpeff.vcf
+        │       ├── 1035Mono_combined.genotype.rsid.snpeff.vcf
+        │       ├── 1035Mono_combined.rsid_only.snpeff.vcf
+        │       ├── 1035T_combined.genotype.rsid.snpeff.vcf
+        │       ├── 1035T_combined.rsid_only.snpeff.vcf
+        │       ├── 1046Mono_combined.genotype.rsid.snpeff.vcf
+        │       ├── 1046Mono_combined.rsid_only.snpEff.genes.txt.gz
+        │       ├── 1046Mono_combined.rsid_only.snpEff.html
+        │       ├── 1046Mono_combined.rsid_only.snpeff.vcf
+        │       ├── 1046T_combined.genotype.rsid.snpeff.vcf
+        │       ├── 1046T_combined.rsid_only.snpEff.genes.txt.gz
+        │       ├── 1046T_combined.rsid_only.snpEff.html
+        │       └── 1046T_combined.rsid_only.snpeff.vcf
+        ├── gatk_pooled
+        │   ├── 1018_pooled.g.vcf.gz
+        │   ├── 1018_pooled.g.vcf.gz.tbi
+        │   ├── 1018_pooled.genotype.rsid.vcf.gz
+        │   ├── 1018_pooled.genotype.rsid.vcf.gz.tbi
+        │   ├── 1018_pooled.genotype.vcf.gz
+        │   ├── 1018_pooled.genotype.vcf.gz.tbi
+        │   ├── 1018_pooled.plots.R
+        │   ├── 1018_pooled.recal
+        │   ├── 1018_pooled.recal.idx
+        │   ├── 1018_pooled.recal.vcf.gz
+        │   ├── 1018_pooled.recal.vcf.gz.tbi
+        │   ├── 1018_pooled.rsid_only.vcf.gz
+        │   ├── 1018_pooled.rsid_only.vcf.gz.tbi
+        │   ├── 1018_pooled.tranches
+        │   ├── 1027_pooled.g.vcf.gz
+        │   ├── 1027_pooled.g.vcf.gz.tbi
+        │   ├── 1027_pooled.genotype.rsid.vcf.gz
+        │   ├── 1027_pooled.genotype.rsid.vcf.gz.tbi
+        │   ├── 1027_pooled.genotype.vcf.gz
+        │   ├── 1027_pooled.genotype.vcf.gz.tbi
+        │   ├── 1027_pooled.plots.R
+        │   ├── 1027_pooled.recal
+        │   ├── 1027_pooled.recal.idx
+        │   ├── 1027_pooled.recal.vcf.gz
+        │   ├── 1027_pooled.recal.vcf.gz.tbi
+        │   ├── 1027_pooled.rsid_only.vcf.gz
+        │   ├── 1027_pooled.rsid_only.vcf.gz.tbi
+        │   ├── 1027_pooled.tranches
+        │   ├── 1035_pooled.g.vcf.gz
+        │   ├── 1035_pooled.g.vcf.gz.tbi
+        │   ├── 1035_pooled.genotype.rsid.vcf.gz
+        │   ├── 1035_pooled.genotype.rsid.vcf.gz.tbi
+        │   ├── 1035_pooled.genotype.vcf.gz
+        │   ├── 1035_pooled.genotype.vcf.gz.tbi
+        │   ├── 1035_pooled.plots.R
+        │   ├── 1035_pooled.recal
+        │   ├── 1035_pooled.recal.idx
+        │   ├── 1035_pooled.recal.vcf.gz
+        │   ├── 1035_pooled.recal.vcf.gz.tbi
+        │   ├── 1035_pooled.rsid_only.vcf.gz
+        │   ├── 1035_pooled.rsid_only.vcf.gz.tbi
+        │   ├── 1035_pooled.tranches
+        │   ├── 1046_pooled.g.vcf.gz
+        │   ├── 1046_pooled.g.vcf.gz.tbi
+        │   ├── 1046_pooled.genotype.rsid.vcf.gz
+        │   ├── 1046_pooled.genotype.rsid.vcf.gz.tbi
+        │   ├── 1046_pooled.genotype.vcf.gz
+        │   ├── 1046_pooled.genotype.vcf.gz.tbi
+        │   ├── 1046_pooled.plots.R
+        │   ├── 1046_pooled.recal
+        │   ├── 1046_pooled.recal.idx
+        │   ├── 1046_pooled.recal.vcf.gz
+        │   ├── 1046_pooled.recal.vcf.gz.tbi
+        │   ├── 1046_pooled.rsid_only.vcf.gz
+        │   ├── 1046_pooled.rsid_only.vcf.gz.tbi
+        │   └── 1046_pooled.tranches
+        ├── in_situ_hic
+        │   ├── coolers_library_group
+        │   │   ├── Human_T-cells.hg19.mapq_30.100.cool
+        │   │   └── Human_T-cells.hg19.mapq_30.100.mcool
+        │   ├── distiller-GSE107148_Tcells
+        │   │   ├── coolers_library
+        │   │   │   ├── T-cells.hg19.mapq_30.100.cool
+        │   │   │   ├── T-cells.hg19.mapq_30.100.mcool
+        │   │   │   ├── T-cells.hg19.no_filter.100.cool
+        │   │   │   └── T-cells.hg19.no_filter.100.mcool
+        │   │   ├── coolers_library_group
+        │   │   │   ├── Human_T-cells.hg19.mapq_30.100.cool
+        │   │   │   ├── Human_T-cells.hg19.mapq_30.100.mcool
+        │   │   │   ├── Human_T-cells.hg19.no_filter.100.cool
+        │   │   │   └── Human_T-cells.hg19.no_filter.100.mcool
+        │   │   ├── fastqc
+        │   │   │   ├── T-cells.lane1.01.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.01.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.01.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.01.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.02.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.02.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.02.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.02.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.03.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.03.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.03.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.03.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.04.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.04.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.04.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.04.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.05.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.05.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.05.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.05.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.06.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.06.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.06.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.06.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.07.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.07.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.07.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.07.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.08.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.08.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.08.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.08.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.09.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.09.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.09.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.09.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.10.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.10.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.10.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.10.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.11.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.11.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.11.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.11.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.12.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.12.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.12.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.12.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.13.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.13.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.13.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.13.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.14.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.14.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.14.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.14.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.15.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.15.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.15.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.15.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.16.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.16.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.16.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.16.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.17.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.17.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.17.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.17.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.18.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.18.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.18.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.18.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.19.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.19.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.19.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.19.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.20.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.20.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.20.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.20.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.21.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.21.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.21.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.21.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.22.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.22.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.22.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.22.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.23.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.23.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.23.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.23.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.24.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.24.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.24.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.24.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.25.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.25.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.25.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.25.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.26.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.26.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.26.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.26.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.27.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.27.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.27.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.27.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.28.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.28.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.28.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.28.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.29.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.29.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.29.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.29.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.30.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.30.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.30.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.30.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.31.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.31.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.31.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.31.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.32.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.32.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.32.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.32.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.33.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.33.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.33.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.33.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.34.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.34.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.34.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.34.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.35.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.35.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.35.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.35.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.36.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.36.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.36.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.36.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.37.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.37.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.37.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.37.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.38.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.38.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.38.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.38.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.39.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.39.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.39.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.39.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.40.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.40.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.40.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.40.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.41.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.41.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.41.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.41.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.42.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.42.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.42.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.42.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.43.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.43.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.43.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.43.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.44.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.44.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.44.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.44.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.45.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.45.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.45.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.45.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.46.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.46.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.46.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.46.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.47.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.47.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.47.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.47.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.48.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.48.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.48.2_fastqc.html
+        │   │   │   ├── T-cells.lane1.48.2_fastqc.zip
+        │   │   │   ├── T-cells.lane1.49.1_fastqc.html
+        │   │   │   ├── T-cells.lane1.49.1_fastqc.zip
+        │   │   │   ├── T-cells.lane1.49.2_fastqc.html
+        │   │   │   └── T-cells.lane1.49.2_fastqc.zip
+        │   │   ├── mapped_parsed_sorted_chunks
+        │   │   │   ├── T-cells.lane1.hg19.01.bam
+        │   │   │   ├── T-cells.lane1.hg19.01.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.02.bam
+        │   │   │   ├── T-cells.lane1.hg19.02.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.03.bam
+        │   │   │   ├── T-cells.lane1.hg19.03.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.04.bam
+        │   │   │   ├── T-cells.lane1.hg19.04.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.05.bam
+        │   │   │   ├── T-cells.lane1.hg19.05.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.06.bam
+        │   │   │   ├── T-cells.lane1.hg19.06.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.07.bam
+        │   │   │   ├── T-cells.lane1.hg19.07.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.08.bam
+        │   │   │   ├── T-cells.lane1.hg19.08.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.09.bam
+        │   │   │   ├── T-cells.lane1.hg19.09.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.10.bam
+        │   │   │   ├── T-cells.lane1.hg19.10.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.11.bam
+        │   │   │   ├── T-cells.lane1.hg19.11.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.12.bam
+        │   │   │   ├── T-cells.lane1.hg19.12.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.13.bam
+        │   │   │   ├── T-cells.lane1.hg19.13.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.14.bam
+        │   │   │   ├── T-cells.lane1.hg19.14.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.15.bam
+        │   │   │   ├── T-cells.lane1.hg19.15.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.16.bam
+        │   │   │   ├── T-cells.lane1.hg19.16.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.17.bam
+        │   │   │   ├── T-cells.lane1.hg19.17.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.18.bam
+        │   │   │   ├── T-cells.lane1.hg19.18.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.19.bam
+        │   │   │   ├── T-cells.lane1.hg19.19.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.20.bam
+        │   │   │   ├── T-cells.lane1.hg19.20.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.21.bam
+        │   │   │   ├── T-cells.lane1.hg19.21.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.22.bam
+        │   │   │   ├── T-cells.lane1.hg19.22.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.23.bam
+        │   │   │   ├── T-cells.lane1.hg19.23.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.24.bam
+        │   │   │   ├── T-cells.lane1.hg19.24.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.25.bam
+        │   │   │   ├── T-cells.lane1.hg19.25.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.26.bam
+        │   │   │   ├── T-cells.lane1.hg19.26.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.27.bam
+        │   │   │   ├── T-cells.lane1.hg19.27.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.28.bam
+        │   │   │   ├── T-cells.lane1.hg19.28.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.29.bam
+        │   │   │   ├── T-cells.lane1.hg19.29.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.30.bam
+        │   │   │   ├── T-cells.lane1.hg19.30.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.31.bam
+        │   │   │   ├── T-cells.lane1.hg19.31.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.32.bam
+        │   │   │   ├── T-cells.lane1.hg19.32.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.33.bam
+        │   │   │   ├── T-cells.lane1.hg19.33.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.34.bam
+        │   │   │   ├── T-cells.lane1.hg19.34.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.35.bam
+        │   │   │   ├── T-cells.lane1.hg19.35.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.36.bam
+        │   │   │   ├── T-cells.lane1.hg19.36.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.37.bam
+        │   │   │   ├── T-cells.lane1.hg19.37.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.38.bam
+        │   │   │   ├── T-cells.lane1.hg19.38.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.39.bam
+        │   │   │   ├── T-cells.lane1.hg19.39.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.40.bam
+        │   │   │   ├── T-cells.lane1.hg19.40.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.41.bam
+        │   │   │   ├── T-cells.lane1.hg19.41.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.42.bam
+        │   │   │   ├── T-cells.lane1.hg19.42.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.43.bam
+        │   │   │   ├── T-cells.lane1.hg19.43.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.44.bam
+        │   │   │   ├── T-cells.lane1.hg19.44.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.45.bam
+        │   │   │   ├── T-cells.lane1.hg19.45.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.46.bam
+        │   │   │   ├── T-cells.lane1.hg19.46.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.47.bam
+        │   │   │   ├── T-cells.lane1.hg19.47.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.48.bam
+        │   │   │   ├── T-cells.lane1.hg19.48.pairsam.gz
+        │   │   │   ├── T-cells.lane1.hg19.49.bam
+        │   │   │   └── T-cells.lane1.hg19.49.pairsam.gz
+        │   │   ├── pairs_library
+        │   │   │   ├── T-cells.hg19.dedup.stats
+        │   │   │   ├── T-cells.hg19.dups.bam
+        │   │   │   ├── T-cells.hg19.dups.bam.stats
+        │   │   │   ├── T-cells.hg19.dups.pairs.gz
+        │   │   │   ├── T-cells.hg19.nodups.bam
+        │   │   │   ├── T-cells.hg19.nodups.bam.stats
+        │   │   │   ├── T-cells.hg19.nodups.pairs.gz
+        │   │   │   ├── T-cells.hg19.nodups.pairs.gz.px2
+        │   │   │   ├── T-cells.hg19.unmapped.bam
+        │   │   │   ├── T-cells.hg19.unmapped.bam.stats
+        │   │   │   └── T-cells.hg19.unmapped.pairs.gz
+        │   │   ├── processed_fastqs
+        │   │   │   ├── T-cells.lane1.01.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.01.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.02.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.02.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.03.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.03.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.04.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.04.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.05.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.05.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.06.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.06.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.07.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.07.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.08.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.08.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.09.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.09.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.10.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.10.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.11.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.11.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.12.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.12.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.13.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.13.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.14.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.14.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.15.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.15.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.16.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.16.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.17.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.17.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.18.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.18.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.19.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.19.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.20.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.20.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.21.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.21.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.22.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.22.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.23.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.23.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.24.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.24.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.25.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.25.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.26.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.26.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.27.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.27.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.28.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.28.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.29.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.29.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.30.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.30.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.31.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.31.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.32.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.32.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.33.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.33.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.34.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.34.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.35.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.35.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.36.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.36.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.37.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.37.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.38.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.38.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.39.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.39.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.40.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.40.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.41.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.41.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.42.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.42.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.43.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.43.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.44.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.44.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.45.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.45.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.46.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.46.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.47.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.47.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.48.1.fastq.gz
+        │   │   │   ├── T-cells.lane1.48.2.fastq.gz
+        │   │   │   ├── T-cells.lane1.49.1.fastq.gz
+        │   │   │   └── T-cells.lane1.49.2.fastq.gz
+        │   │   └── stats_library_group
+        │   │       └── Human_T-cells.hg19.stats
+        │   ├── distiller-GSE115896_Tcells
+        │   │   ├── coolers_library
+        │   │   │   ├── Tcell1.hg19.mapq_30.100.cool
+        │   │   │   ├── Tcell1.hg19.mapq_30.100.mcool
+        │   │   │   ├── Tcell1.hg19.no_filter.100.cool
+        │   │   │   ├── Tcell1.hg19.no_filter.100.mcool
+        │   │   │   ├── Tcell2.hg19.mapq_30.100.cool
+        │   │   │   ├── Tcell2.hg19.mapq_30.100.mcool
+        │   │   │   ├── Tcell2.hg19.no_filter.100.cool
+        │   │   │   ├── Tcell2.hg19.no_filter.100.mcool
+        │   │   │   ├── Tcell3.hg19.mapq_30.100.cool
+        │   │   │   ├── Tcell3.hg19.mapq_30.100.mcool
+        │   │   │   ├── Tcell3.hg19.no_filter.100.cool
+        │   │   │   └── Tcell3.hg19.no_filter.100.mcool
+        │   │   ├── coolers_library_group
+        │   │   │   ├── Tcell.hg19.mapq_30.100.cool
+        │   │   │   ├── Tcell.hg19.mapq_30.100.mcool
+        │   │   │   ├── Tcell.hg19.no_filter.100.cool
+        │   │   │   └── Tcell.hg19.no_filter.100.mcool
+        │   │   ├── fastqc
+        │   │   │   ├── Tcell1.lane1.01.1_fastqc.html
+        │   │   │   ├── Tcell1.lane1.01.1_fastqc.zip
+        │   │   │   ├── Tcell1.lane1.01.2_fastqc.html
+        │   │   │   ├── Tcell1.lane1.01.2_fastqc.zip
+        │   │   │   ├── Tcell2.lane1.01.1_fastqc.html
+        │   │   │   ├── Tcell2.lane1.01.1_fastqc.zip
+        │   │   │   ├── Tcell2.lane1.01.2_fastqc.html
+        │   │   │   ├── Tcell2.lane1.01.2_fastqc.zip
+        │   │   │   ├── Tcell3.lane1.01.1_fastqc.html
+        │   │   │   ├── Tcell3.lane1.01.1_fastqc.zip
+        │   │   │   ├── Tcell3.lane1.01.2_fastqc.html
+        │   │   │   └── Tcell3.lane1.01.2_fastqc.zip
+        │   │   ├── juicer
+        │   │   │   ├── Tcell.hic
+        │   │   │   ├── Tcell1.hic
+        │   │   │   ├── Tcell2.hic
+        │   │   │   └── Tcell3.hic
+        │   │   ├── mapped_parsed_sorted_chunks
+        │   │   │   ├── Tcell1.lane1.hg19.01.bam
+        │   │   │   ├── Tcell1.lane1.hg19.01.pairsam.gz
+        │   │   │   ├── Tcell2.lane1.hg19.01.bam
+        │   │   │   ├── Tcell2.lane1.hg19.01.pairsam.gz
+        │   │   │   ├── Tcell3.lane1.hg19.01.bam
+        │   │   │   └── Tcell3.lane1.hg19.01.pairsam.gz
+        │   │   ├── pairs_library
+        │   │   │   ├── Tcell.hg19.nodups.pairs.gz
+        │   │   │   ├── Tcell1.hg19.dedup.stats
+        │   │   │   ├── Tcell1.hg19.dups.bam
+        │   │   │   ├── Tcell1.hg19.dups.bam.stats
+        │   │   │   ├── Tcell1.hg19.dups.pairs.gz
+        │   │   │   ├── Tcell1.hg19.nodups.bam
+        │   │   │   ├── Tcell1.hg19.nodups.bam.stats
+        │   │   │   ├── Tcell1.hg19.nodups.pairs.gz
+        │   │   │   ├── Tcell1.hg19.nodups.pairs.gz.px2
+        │   │   │   ├── Tcell1.hg19.unmapped.bam
+        │   │   │   ├── Tcell1.hg19.unmapped.bam.stats
+        │   │   │   ├── Tcell1.hg19.unmapped.pairs.gz
+        │   │   │   ├── Tcell2.hg19.dedup.stats
+        │   │   │   ├── Tcell2.hg19.dups.bam
+        │   │   │   ├── Tcell2.hg19.dups.bam.stats
+        │   │   │   ├── Tcell2.hg19.dups.pairs.gz
+        │   │   │   ├── Tcell2.hg19.nodups.bam
+        │   │   │   ├── Tcell2.hg19.nodups.bam.stats
+        │   │   │   ├── Tcell2.hg19.nodups.pairs.gz
+        │   │   │   ├── Tcell2.hg19.nodups.pairs.gz.px2
+        │   │   │   ├── Tcell2.hg19.unmapped.bam
+        │   │   │   ├── Tcell2.hg19.unmapped.bam.stats
+        │   │   │   ├── Tcell2.hg19.unmapped.pairs.gz
+        │   │   │   ├── Tcell3.hg19.dedup.stats
+        │   │   │   ├── Tcell3.hg19.dups.bam
+        │   │   │   ├── Tcell3.hg19.dups.bam.stats
+        │   │   │   ├── Tcell3.hg19.dups.pairs.gz
+        │   │   │   ├── Tcell3.hg19.nodups.bam
+        │   │   │   ├── Tcell3.hg19.nodups.bam.stats
+        │   │   │   ├── Tcell3.hg19.nodups.pairs.gz
+        │   │   │   ├── Tcell3.hg19.nodups.pairs.gz.px2
+        │   │   │   ├── Tcell3.hg19.unmapped.bam
+        │   │   │   ├── Tcell3.hg19.unmapped.bam.stats
+        │   │   │   ├── Tcell3.hg19.unmapped.pairs.gz
+        │   │   │   ├── header.gz
+        │   │   │   ├── multiqc_data
+        │   │   │   │   ├── multiqc.log
+        │   │   │   │   ├── multiqc_citations.txt
+        │   │   │   │   ├── multiqc_data.json
+        │   │   │   │   ├── multiqc_general_stats.txt
+        │   │   │   │   ├── multiqc_samtools_stats.txt
+        │   │   │   │   └── multiqc_sources.txt
+        │   │   │   └── multiqc_report.html
+        │   │   ├── processed_fastqs
+        │   │   │   ├── Tcell1.lane1.01.1.fastq.gz
+        │   │   │   ├── Tcell1.lane1.01.2.fastq.gz
+        │   │   │   ├── Tcell2.lane1.01.1.fastq.gz
+        │   │   │   ├── Tcell2.lane1.01.2.fastq.gz
+        │   │   │   ├── Tcell3.lane1.01.1.fastq.gz
+        │   │   │   └── Tcell3.lane1.01.2.fastq.gz
+        │   │   └── stats_library_group
+        │   │       └── Tcell.hg19.stats
+        │   ├── distiller-PRJNA385337_monocytes
+        │   │   ├── coolers_library
+        │   │   │   ├── THP1_Ctrl.hg19.mapq_30.100.cool
+        │   │   │   ├── THP1_Ctrl.hg19.mapq_30.100.mcool
+        │   │   │   ├── THP1_Ctrl.hg19.no_filter.100.cool
+        │   │   │   └── THP1_Ctrl.hg19.no_filter.100.mcool
+        │   │   ├── coolers_library_group
+        │   │   │   ├── THP1_cells.hg19.mapq_30.100.cool
+        │   │   │   ├── THP1_cells.hg19.mapq_30.100.mcool
+        │   │   │   ├── THP1_cells.hg19.no_filter.100.cool
+        │   │   │   └── THP1_cells.hg19.no_filter.100.mcool
+        │   │   ├── fastqc
+        │   │   │   ├── THP1_Ctrl.lane1.01.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.01.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.01.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.01.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.02.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.02.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.02.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.02.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.03.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.03.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.03.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.03.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.04.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.04.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.04.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.04.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.05.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.05.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.05.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.05.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.06.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.06.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.06.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.06.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.07.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.07.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.07.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.07.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.08.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.08.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.08.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.08.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.09.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.09.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.09.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.09.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.10.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.10.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.10.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.10.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.11.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.11.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.11.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.11.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.12.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.12.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.12.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.12.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.13.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.13.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.13.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.13.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.14.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.14.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.14.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.14.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.15.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.15.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.15.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.15.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.16.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.16.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.16.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.16.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.17.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.17.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.17.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.17.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.18.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.18.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.18.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.18.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.19.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.19.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.19.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.19.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.20.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.20.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.20.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.20.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.21.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.21.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.21.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.21.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.22.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.22.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.22.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.22.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.23.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.23.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.23.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.23.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.24.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.24.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.24.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.24.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.25.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.25.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.25.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.25.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.26.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.26.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.26.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.26.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.27.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.27.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.27.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.27.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.28.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.28.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.28.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.28.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.29.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.29.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.29.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.29.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.30.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.30.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.30.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.30.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.31.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.31.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.31.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.31.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.32.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.32.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.32.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.32.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.33.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.33.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.33.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.33.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.34.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.34.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.34.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.34.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.35.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.35.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.35.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.35.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.36.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.36.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.36.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.36.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.37.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.37.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.37.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.37.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.38.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.38.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.38.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.38.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.39.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.39.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.39.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.39.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.40.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.40.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.40.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.40.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.41.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.41.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.41.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.41.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.42.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.42.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.42.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.42.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.43.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.43.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.43.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.43.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.44.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.44.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.44.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.44.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.45.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.45.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.45.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.45.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.46.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.46.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.46.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.46.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.47.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.47.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.47.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.47.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.48.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.48.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.48.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.48.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.49.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.49.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.49.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.49.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.50.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.50.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.50.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.50.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.51.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.51.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.51.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.51.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.52.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.52.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.52.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.52.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.53.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.53.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.53.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.53.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.54.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.54.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.54.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.54.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.55.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.55.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.55.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.55.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.56.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.56.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.56.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.56.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.57.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.57.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.57.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.57.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.58.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.58.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.58.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.58.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.59.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.59.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.59.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.59.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.60.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.60.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.60.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.60.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.61.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.61.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.61.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.61.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.62.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.62.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.62.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.62.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.63.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.63.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.63.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.63.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.64.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.64.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.64.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.64.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.65.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.65.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.65.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.65.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.66.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.66.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.66.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.66.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.67.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.67.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.67.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.67.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.68.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.68.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.68.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.68.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.69.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.69.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.69.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.69.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.70.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.70.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.70.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.70.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.71.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.71.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.71.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.71.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.72.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.72.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.72.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.72.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.73.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.73.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.73.2_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.73.2_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.74.1_fastqc.html
+        │   │   │   ├── THP1_Ctrl.lane1.74.1_fastqc.zip
+        │   │   │   ├── THP1_Ctrl.lane1.74.2_fastqc.html
+        │   │   │   └── THP1_Ctrl.lane1.74.2_fastqc.zip
+        │   │   ├── mapped_parsed_sorted_chunks
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.01.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.01.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.02.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.02.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.03.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.03.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.04.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.04.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.05.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.05.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.06.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.06.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.07.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.07.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.08.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.08.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.09.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.09.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.10.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.10.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.11.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.11.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.12.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.12.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.13.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.13.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.14.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.14.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.15.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.15.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.16.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.16.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.17.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.17.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.18.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.18.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.19.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.19.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.20.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.20.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.21.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.21.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.22.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.22.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.23.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.23.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.24.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.24.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.25.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.25.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.26.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.26.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.27.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.27.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.28.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.28.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.29.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.29.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.30.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.30.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.31.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.31.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.32.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.32.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.33.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.33.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.34.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.34.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.35.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.35.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.36.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.36.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.37.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.37.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.38.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.38.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.39.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.39.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.40.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.40.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.41.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.41.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.42.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.42.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.43.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.43.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.44.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.44.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.45.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.45.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.46.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.46.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.47.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.47.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.48.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.48.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.49.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.49.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.50.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.50.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.51.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.51.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.52.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.52.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.53.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.53.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.54.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.54.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.55.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.55.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.56.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.56.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.57.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.57.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.58.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.58.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.59.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.59.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.60.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.60.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.61.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.61.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.62.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.62.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.63.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.63.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.64.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.64.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.65.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.65.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.66.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.66.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.67.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.67.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.68.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.68.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.69.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.69.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.70.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.70.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.71.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.71.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.72.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.72.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.73.bam
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.73.pairsam.gz
+        │   │   │   ├── THP1_Ctrl.lane1.hg19.74.bam
+        │   │   │   └── THP1_Ctrl.lane1.hg19.74.pairsam.gz
+        │   │   ├── pairs_library
+        │   │   │   ├── THP1_Ctrl.hg19.dedup.stats
+        │   │   │   ├── THP1_Ctrl.hg19.dups.bam
+        │   │   │   ├── THP1_Ctrl.hg19.dups.bam.stats
+        │   │   │   ├── THP1_Ctrl.hg19.dups.pairs.gz
+        │   │   │   ├── THP1_Ctrl.hg19.nodups.bam
+        │   │   │   ├── THP1_Ctrl.hg19.nodups.bam.stats
+        │   │   │   ├── THP1_Ctrl.hg19.nodups.pairs.gz
+        │   │   │   ├── THP1_Ctrl.hg19.nodups.pairs.gz.px2
+        │   │   │   ├── THP1_Ctrl.hg19.unmapped.bam
+        │   │   │   ├── THP1_Ctrl.hg19.unmapped.bam.stats
+        │   │   │   └── THP1_Ctrl.hg19.unmapped.pairs.gz
+        │   │   ├── processed_fastqs
+        │   │   │   ├── THP1_Ctrl.lane1.01.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.01.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.02.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.02.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.03.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.03.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.04.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.04.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.05.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.05.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.06.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.06.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.07.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.07.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.08.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.08.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.09.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.09.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.10.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.10.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.11.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.11.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.12.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.12.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.13.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.13.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.14.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.14.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.15.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.15.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.16.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.16.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.17.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.17.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.18.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.18.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.19.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.19.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.20.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.20.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.21.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.21.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.22.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.22.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.23.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.23.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.24.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.24.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.25.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.25.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.26.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.26.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.27.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.27.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.28.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.28.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.29.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.29.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.30.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.30.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.31.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.31.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.32.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.32.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.33.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.33.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.34.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.34.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.35.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.35.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.36.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.36.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.37.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.37.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.38.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.38.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.39.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.39.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.40.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.40.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.41.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.41.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.42.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.42.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.43.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.43.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.44.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.44.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.45.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.45.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.46.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.46.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.47.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.47.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.48.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.48.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.49.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.49.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.50.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.50.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.51.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.51.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.52.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.52.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.53.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.53.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.54.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.54.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.55.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.55.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.56.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.56.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.57.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.57.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.58.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.58.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.59.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.59.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.60.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.60.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.61.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.61.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.62.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.62.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.63.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.63.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.64.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.64.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.65.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.65.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.66.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.66.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.67.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.67.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.68.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.68.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.69.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.69.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.70.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.70.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.71.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.71.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.72.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.72.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.73.1.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.73.2.fastq.gz
+        │   │   │   ├── THP1_Ctrl.lane1.74.1.fastq.gz
+        │   │   │   └── THP1_Ctrl.lane1.74.2.fastq.gz
+        │   │   └── stats_library_group
+        │   │       └── THP1_cells.hg19.stats
+        │   ├── pipeline_info
+        │   │   ├── report.html
+        │   │   ├── report.html.1
+        │   │   ├── report.html.2
+        │   │   ├── report.html.3
+        │   │   ├── timeline.html
+        │   │   ├── timeline.html.1
+        │   │   ├── timeline.html.2
+        │   │   ├── timeline.html.3
+        │   │   ├── trace.txt
+        │   │   ├── trace.txt.1
+        │   │   ├── trace.txt.2
+        │   │   ├── trace.txt.3
+        │   │   └── trace.txt.4
+        │   ├── sra_GSE107148
+        │   │   ├── SRR6308411_1.fastq.gz
+        │   │   ├── SRR6308411_2.fastq.gz
+        │   │   ├── SRR6308412_1.fastq.gz
+        │   │   └── SRR6308412_2.fastq.gz
+        │   └── sra_PRJNA385337
+        │       ├── SRR5519214_1.fastq.gz
+        │       ├── SRR5519214_2.fastq.gz
+        │       ├── SRR5519215_1.fastq.gz
+        │       ├── SRR5519215_2.fastq.gz
+        │       ├── SRR5519216_1.fastq.gz
+        │       ├── SRR5519216_2.fastq.gz
+        │       ├── SRR5519217_1.fastq.gz
+        │       ├── SRR5519217_2.fastq.gz
+        │       ├── SRR5519218_1.fastq.gz
+        │       ├── SRR5519218_2.fastq.gz
+        │       ├── SRR5519220_1.fastq.gz
+        │       ├── SRR5519220_2.fastq.gz
+        │       ├── SRR5519221_1.fastq.gz
+        │       ├── SRR5519221_2.fastq.gz
+        │       ├── SRR5519222_1.fastq.gz
+        │       ├── SRR5519222_2.fastq.gz
+        │       ├── SRR5519223_1.fastq.gz
+        │       ├── SRR5519223_2.fastq.gz
+        │       ├── SRR5519224_1.fastq.gz
+        │       ├── SRR5519224_2.fastq.gz
+        │       ├── SRR5519225_1.fastq.gz
+        │       ├── SRR5519225_2.fastq.gz
+        │       ├── SRR5519226_1.fastq.gz
+        │       ├── SRR5519226_2.fastq.gz
+        │       ├── SRR5519227_1.fastq.gz
+        │       ├── SRR5519227_2.fastq.gz
+        │       ├── SRR5519228_1.fastq.gz
+        │       ├── SRR5519228_2.fastq.gz
+        │       ├── SRR5519229_1.fastq.gz
+        │       ├── SRR5519229_2.fastq.gz
+        │       ├── SRR5519231_1.fastq.gz
+        │       ├── SRR5519231_2.fastq.gz
+        │       ├── SRR5519232_1.fastq.gz
+        │       ├── SRR5519232_2.fastq.gz
+        │       ├── SRR5519233_1.fastq.gz
+        │       ├── SRR5519233_2.fastq.gz
+        │       ├── SRR5519234_1.fastq.gz
+        │       ├── SRR5519234_2.fastq.gz
+        │       ├── SRR5519235_1.fastq.gz
+        │       ├── SRR5519235_2.fastq.gz
+        │       ├── SRR5519236_1.fastq.gz
+        │       ├── SRR5519236_2.fastq.gz
+        │       ├── SRR5519237_1.fastq.gz
+        │       ├── SRR5519237_2.fastq.gz
+        │       ├── SRR5519238_1.fastq.gz
+        │       ├── SRR5519238_2.fastq.gz
+        │       ├── SRR5519239_1.fastq.gz
+        │       ├── SRR5519239_2.fastq.gz
+        │       ├── SRR5519240_1.fastq.gz
+        │       ├── SRR5519240_2.fastq.gz
+        │       ├── SRR5519242_1.fastq.gz
+        │       ├── SRR5519242_2.fastq.gz
+        │       ├── SRR5519243_1.fastq.gz
+        │       ├── SRR5519243_2.fastq.gz
+        │       ├── SRR5519244_1.fastq.gz
+        │       ├── SRR5519244_2.fastq.gz
+        │       ├── SRR5519245_1.fastq.gz
+        │       ├── SRR5519245_2.fastq.gz
+        │       ├── SRR5519246_1.fastq.gz
+        │       ├── SRR5519246_2.fastq.gz
+        │       ├── SRR5519247_1.fastq.gz
+        │       ├── SRR5519247_2.fastq.gz
+        │       ├── SRR5519248_1.fastq.gz
+        │       ├── SRR5519248_2.fastq.gz
+        │       ├── SRR5519249_1.fastq.gz
+        │       ├── SRR5519249_2.fastq.gz
+        │       ├── SRR5519250_1.fastq.gz
+        │       ├── SRR5519250_2.fastq.gz
+        │       ├── SRR5519251_1.fastq.gz
+        │       ├── SRR5519251_2.fastq.gz
+        │       ├── SRR5519253_1.fastq.gz
+        │       ├── SRR5519253_2.fastq.gz
+        │       └── sra
+        │           ├── SRR6308411.sra
+        │           └── SRR6308412.sra
+        ├── juicer
+        │   ├── 1018Mono.hic
+        │   ├── 1018Mono.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1018Mono.hiccups.log
+        │   ├── 1018Mono_combined.hic
+        │   ├── 1018Mono_combined.pairs.gz
+        │   ├── 1018Mono_combined_q30.hic
+        │   ├── 1018Mono_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1018Mono_q30.hiccups.log
+        │   ├── 1018T.hic
+        │   ├── 1018T_combined.hic
+        │   ├── 1018T_combined.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1018T_combined.hiccups.log
+        │   ├── 1018T_combined.pairs.gz
+        │   ├── 1018T_combined_q30.hic
+        │   ├── 1018T_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1018T_q30.hiccups.log
+        │   ├── 1018_CD14.hic
+        │   ├── 1018_CD3.hic
+        │   ├── 1027Mono.hic
+        │   ├── 1027Mono.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1027Mono.hiccups.log
+        │   ├── 1027Mono_combined.hic
+        │   ├── 1027Mono_combined.pairs.gz
+        │   ├── 1027Mono_combined_q30.hic
+        │   ├── 1027Mono_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1027Mono_q30.hiccups.log
+        │   ├── 1027T.hic
+        │   ├── 1027T_combined.hic
+        │   ├── 1027T_combined.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1027T_combined.hiccups.log
+        │   ├── 1027T_combined.pairs.gz
+        │   ├── 1027T_combined_q30.hic
+        │   ├── 1027T_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1027T_q30.hiccups.log
+        │   ├── 1027_CD14.hic
+        │   ├── 1027_CD3.hic
+        │   ├── 1035Mono.hic
+        │   ├── 1035Mono.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1035Mono.hiccups.log
+        │   ├── 1035Mono_combined.hic
+        │   ├── 1035Mono_combined.pairs.gz
+        │   ├── 1035Mono_combined_q30.hic
+        │   ├── 1035Mono_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1035Mono_q30.hiccups.log
+        │   ├── 1035T.hic
+        │   ├── 1035T_combined.hic
+        │   ├── 1035T_combined.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1035T_combined.hiccups.log
+        │   ├── 1035T_combined.pairs.gz
+        │   ├── 1035T_combined_q30.hic
+        │   ├── 1035T_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1035T_q30.hiccups.log
+        │   ├── 1035_CD14.hic
+        │   ├── 1035_CD3.hic
+        │   ├── 1046Mono.hic
+        │   ├── 1046Mono.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1046Mono.hiccups.log
+        │   ├── 1046Mono_combined.hic
+        │   ├── 1046Mono_combined.pairs.gz
+        │   ├── 1046Mono_combined_q30.hic
+        │   ├── 1046Mono_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1046Mono_q30.hiccups.log
+        │   ├── 1046T.hic
+        │   ├── 1046T_combined.hic
+        │   ├── 1046T_combined.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1046T_combined.hiccups.log
+        │   ├── 1046T_combined.pairs.gz
+        │   ├── 1046T_combined_q30.hic
+        │   ├── 1046T_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── 1046T_q30.hiccups.log
+        │   ├── 1046_CD14.hic
+        │   ├── 1046_CD3.hic
+        │   ├── Mono_t1d_pooled.hic
+        │   ├── Mono_t1d_pooled.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_200.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_200.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── Mono_t1d_pooled.hiccups.log
+        │   ├── Mono_t1d_pooled.pairs.gz
+        │   ├── Mono_t1d_pooled_q30.hic
+        │   ├── Mono_t1d_pooled_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_200.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_200.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── Mono_t1d_pooled_q30.hiccups.log
+        │   ├── Mono_t1d_reseq.hic
+        │   ├── Mono_t1d_reseq.pairs.gz
+        │   ├── T-cells.hg19.nodups_q30.hic
+        │   ├── T1D_pooled.hic
+        │   ├── T1D_pooled.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_200.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_200.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── T1D_pooled.hiccups.log
+        │   ├── T1D_pooled.pairs.gz
+        │   ├── T1D_pooled.pairs.tmp.gz
+        │   ├── T1D_pooled_q30.hic
+        │   ├── T1D_pooled_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_200.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_200.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── T1D_pooled_q30.hiccups.log
+        │   ├── THP1_Ctrl.hg19.nodups_q30.hic
+        │   ├── T_ctr.hic
+        │   ├── T_ctr.pairs.gz
+        │   ├── T_pooled_10B.hic
+        │   ├── T_pooled_10B.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_200.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_200.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── T_pooled_10B.hiccups.log
+        │   ├── T_pooled_10B.pairs.gz
+        │   ├── T_t1d.hic
+        │   ├── T_t1d.pairs.gz
+        │   ├── T_t1d_pooled.hic
+        │   ├── T_t1d_pooled.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_200.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_200.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── T_t1d_pooled.hiccups.log
+        │   ├── T_t1d_pooled.pairs.gz
+        │   ├── T_t1d_pooled_100M.hic
+        │   ├── T_t1d_pooled_100M.pairs.gz
+        │   ├── T_t1d_pooled_17M.hic
+        │   ├── T_t1d_pooled_17M_downscaled.pairs.gz
+        │   ├── T_t1d_pooled_q30.hic
+        │   ├── T_t1d_pooled_q30.hiccups
+        │   │   ├── enriched_pixels_1000.bedpe
+        │   │   ├── enriched_pixels_10000.bedpe
+        │   │   ├── enriched_pixels_2000.bedpe
+        │   │   ├── enriched_pixels_500.bedpe
+        │   │   ├── enriched_pixels_5000.bedpe
+        │   │   ├── fdr_thresholds_1000
+        │   │   ├── fdr_thresholds_10000
+        │   │   ├── fdr_thresholds_200
+        │   │   ├── fdr_thresholds_2000
+        │   │   ├── fdr_thresholds_500
+        │   │   ├── fdr_thresholds_5000
+        │   │   ├── merged_loops.bedpe
+        │   │   ├── postprocessed_pixels_1000.bedpe
+        │   │   ├── postprocessed_pixels_10000.bedpe
+        │   │   ├── postprocessed_pixels_2000.bedpe
+        │   │   ├── postprocessed_pixels_500.bedpe
+        │   │   └── postprocessed_pixels_5000.bedpe
+        │   ├── T_t1d_pooled_q30.hiccups.log
+        │   ├── T_t1d_reseq.hic
+        │   ├── T_t1d_reseq.pairs.gz
+        │   ├── header_Mono.gz
+        │   ├── header_T.gz
+        │   └── header_T.pairs.gz
+        ├── juicer_apa.tar.gz
+        ├── md5sum.txt
+        ├── multiHicCompare
+        │   ├── multihic_T1D_pooled
+        │   │   ├── hic_10k
+        │   │   │   ├── 1018Mono_combined.NONE.10k.txt.gz
+        │   │   │   ├── 1018T_combined.NONE.10k.txt.gz
+        │   │   │   ├── 1027Mono_combined.NONE.10k.txt.gz
+        │   │   │   ├── 1027T_combined.NONE.10k.txt.gz
+        │   │   │   ├── 1035Mono_combined.NONE.10k.txt.gz
+        │   │   │   ├── 1035T_combined.NONE.10k.txt.gz
+        │   │   │   ├── 1046Mono_combined.NONE.10k.txt.gz
+        │   │   │   ├── 1046T_combined.NONE.10k.txt.gz
+        │   │   │   ├── trihic.NONE.10k.rds
+        │   │   │   ├── trihic_after_10k.png
+        │   │   │   ├── trihic_before_10k.png
+        │   │   │   ├── trihic_counts_10k.png
+        │   │   │   ├── trihic_detected_regions_10k.bed
+        │   │   │   ├── trihic_detected_regions_10k.pairedbed
+        │   │   │   ├── trihic_detected_regions_10k.pairedbed.tsv
+        │   │   │   ├── trihic_detected_regions_10k.tsv
+        │   │   │   ├── trihic_diff.png
+        │   │   │   ├── trihic_manhattan_10k.png
+        │   │   │   └── trihic_pvals_10k.png
+        │   │   ├── hic_1k
+        │   │   │   ├── 1018Mono_combined.NONE.1k.txt.gz
+        │   │   │   ├── 1018T_combined.NONE.1k.txt.gz
+        │   │   │   ├── 1027Mono_combined.NONE.1k.txt.gz
+        │   │   │   ├── 1027T_combined.NONE.1k.txt.gz
+        │   │   │   ├── 1035Mono_combined.NONE.1k.txt.gz
+        │   │   │   ├── 1035T_combined.NONE.1k.txt.gz
+        │   │   │   ├── 1046Mono_combined.NONE.1k.txt.gz
+        │   │   │   ├── 1046T_combined.NONE.1k.txt.gz
+        │   │   │   ├── trihic.NONE.1k.rds
+        │   │   │   ├── trihic_after_1k.png
+        │   │   │   ├── trihic_before_1k.png
+        │   │   │   ├── trihic_counts_1k.png
+        │   │   │   ├── trihic_detected_regions_1k.bed
+        │   │   │   ├── trihic_detected_regions_1k.pairedbed
+        │   │   │   ├── trihic_detected_regions_1k.pairedbed.tsv
+        │   │   │   ├── trihic_detected_regions_1k.tsv
+        │   │   │   ├── trihic_diff.png
+        │   │   │   └── trihic_pvals_1k.png
+        │   │   ├── hic_5k
+        │   │   │   ├── 1018Mono_combined.NONE.5k.txt.gz
+        │   │   │   ├── 1018T_combined.NONE.5k.txt.gz
+        │   │   │   ├── 1027Mono_combined.NONE.5k.txt.gz
+        │   │   │   ├── 1027T_combined.NONE.5k.txt.gz
+        │   │   │   ├── 1035Mono_combined.NONE.5k.txt.gz
+        │   │   │   ├── 1035T_combined.NONE.5k.txt.gz
+        │   │   │   ├── 1046Mono_combined.NONE.5k.txt.gz
+        │   │   │   ├── 1046T_combined.NONE.5k.txt.gz
+        │   │   │   ├── trihic.NONE.5k.rds
+        │   │   │   ├── trihic_after_5k.png
+        │   │   │   ├── trihic_before_5k.png
+        │   │   │   ├── trihic_counts_5k.png
+        │   │   │   ├── trihic_detected_regions_5k.bed
+        │   │   │   ├── trihic_detected_regions_5k.pairedbed
+        │   │   │   ├── trihic_detected_regions_5k.pairedbed.tsv
+        │   │   │   ├── trihic_detected_regions_5k.tsv
+        │   │   │   ├── trihic_diff.png
+        │   │   │   ├── trihic_manhattan_5k.png
+        │   │   │   └── trihic_pvals_5k.png
+        │   │   └── tad_100k-T1D_pooled
+        │   │       ├── T1D_pooled.NONE.100k.txt.gz
+        │   │       ├── T1D_pooled_100k.TAD_boundary.bedpe
+        │   │       ├── T1D_pooled_100k.TAD_domain.bedpe
+        │   │       ├── T1D_pooled_100k.TAD_gap.bedpe
+        │   │       ├── chr10_100k.matrix.rds
+        │   │       ├── chr11_100k.matrix.rds
+        │   │       ├── chr12_100k.matrix.rds
+        │   │       ├── chr13_100k.matrix.rds
+        │   │       ├── chr14_100k.matrix.rds
+        │   │       ├── chr15_100k.matrix.rds
+        │   │       ├── chr16_100k.matrix.rds
+        │   │       ├── chr17_100k.matrix.rds
+        │   │       ├── chr18_100k.matrix.rds
+        │   │       ├── chr19_100k.matrix.rds
+        │   │       ├── chr1_100k.matrix.rds
+        │   │       ├── chr20_100k.matrix.rds
+        │   │       ├── chr21_100k.matrix.rds
+        │   │       ├── chr22_100k.matrix.rds
+        │   │       ├── chr2_100k.matrix.rds
+        │   │       ├── chr3_100k.matrix.rds
+        │   │       ├── chr4_100k.matrix.rds
+        │   │       ├── chr5_100k.matrix.rds
+        │   │       ├── chr6_100k.matrix.rds
+        │   │       ├── chr7_100k.matrix.rds
+        │   │       ├── chr8_100k.matrix.rds
+        │   │       ├── chr9_100k.matrix.rds
+        │   │       └── chrX_100k.matrix.rds
+        │   └── multihic_T_pooled
+        │       ├── hic_10k
+        │       │   ├── 1018T_combined.NONE.10k.txt.gz
+        │       │   ├── 1027T_combined.NONE.10k.txt.gz
+        │       │   ├── 1035T_combined.NONE.10k.txt.gz
+        │       │   ├── 1046T_combined.NONE.10k.txt.gz
+        │       │   ├── T1D24T.NONE.10k.txt.gz
+        │       │   ├── T1D29T.NONE.10k.txt.gz
+        │       │   ├── T1D30T.NONE.10k.txt.gz
+        │       │   ├── T1D47T.NONE.10k.txt.gz
+        │       │   ├── trihic.NONE.10k.rds
+        │       │   ├── trihic_before_10k.png
+        │       │   ├── trihic_counts_10k.png
+        │       │   ├── trihic_detected_regions_10k.bed
+        │       │   ├── trihic_detected_regions_10k.pairedbed
+        │       │   ├── trihic_detected_regions_10k.pairedbed.tsv
+        │       │   ├── trihic_detected_regions_10k.tsv
+        │       │   ├── trihic_manhattan_10k.png
+        │       │   └── trihic_pvals_10k.png
+        │       ├── hic_1k
+        │       │   ├── 1018T_combined.NONE.1k.txt.gz
+        │       │   ├── 1027T_combined.NONE.1k.txt.gz
+        │       │   ├── 1035T_combined.NONE.1k.txt.gz
+        │       │   ├── 1046T_combined.NONE.1k.txt.gz
+        │       │   ├── T1D24T.NONE.1k.txt.gz
+        │       │   ├── T1D29T.NONE.1k.txt.gz
+        │       │   ├── T1D30T.NONE.1k.txt.gz
+        │       │   ├── T1D47T.NONE.1k.txt.gz
+        │       │   ├── trihic.NONE.1k.rds
+        │       │   ├── trihic_after_1k.png
+        │       │   ├── trihic_detected_regions_1k.bed
+        │       │   ├── trihic_detected_regions_1k.pairedbed
+        │       │   ├── trihic_detected_regions_1k.pairedbed.tsv
+        │       │   └── trihic_detected_regions_1k.tsv
+        │       ├── hic_5k
+        │       │   ├── 1018T_combined.NONE.5k.txt.gz
+        │       │   ├── 1027T_combined.NONE.5k.txt.gz
+        │       │   ├── 1035T_combined.NONE.5k.txt.gz
+        │       │   ├── 1046T_combined.NONE.5k.txt.gz
+        │       │   ├── T1D24T.NONE.5k.txt.gz
+        │       │   ├── T1D29T.NONE.5k.txt.gz
+        │       │   ├── T1D30T.NONE.5k.txt.gz
+        │       │   ├── T1D47T.NONE.5k.txt.gz
+        │       │   ├── trihic.NONE.5k.rds
+        │       │   ├── trihic_counts_5k.png
+        │       │   ├── trihic_detected_regions_5k.bed
+        │       │   ├── trihic_detected_regions_5k.pairedbed
+        │       │   ├── trihic_detected_regions_5k.pairedbed.tsv
+        │       │   ├── trihic_detected_regions_5k.tsv
+        │       │   ├── trihic_manhattan_5k.png
+        │       │   └── trihic_pvals_5k.png
+        │       ├── tad_100k-T_pooled_10B
+        │       │   ├── T_pooled_10B.NONE.100k.txt.gz
+        │       │   ├── T_pooled_10B_100k.TAD_boundary.bedpe
+        │       │   ├── T_pooled_10B_100k.TAD_domain.bedpe
+        │       │   ├── T_pooled_10B_100k.TAD_gap.bedpe
+        │       │   ├── chr10_100k.matrix.rds
+        │       │   ├── chr11_100k.matrix.rds
+        │       │   ├── chr12_100k.matrix.rds
+        │       │   ├── chr13_100k.matrix.rds
+        │       │   ├── chr14_100k.matrix.rds
+        │       │   ├── chr15_100k.matrix.rds
+        │       │   ├── chr16_100k.matrix.rds
+        │       │   ├── chr17_100k.matrix.rds
+        │       │   ├── chr18_100k.matrix.rds
+        │       │   ├── chr19_100k.matrix.rds
+        │       │   ├── chr1_100k.matrix.rds
+        │       │   ├── chr20_100k.matrix.rds
+        │       │   ├── chr21_100k.matrix.rds
+        │       │   ├── chr22_100k.matrix.rds
+        │       │   ├── chr2_100k.matrix.rds
+        │       │   ├── chr3_100k.matrix.rds
+        │       │   ├── chr4_100k.matrix.rds
+        │       │   ├── chr5_100k.matrix.rds
+        │       │   ├── chr6_100k.matrix.rds
+        │       │   ├── chr7_100k.matrix.rds
+        │       │   ├── chr8_100k.matrix.rds
+        │       │   ├── chr9_100k.matrix.rds
+        │       │   └── chrX_100k.matrix.rds
+        │       └── tad_10k-T_pooled_10B
+        │           └── T_pooled_10B.NONE.10k.txt.gz
+        ├── multihic_T1D_pooled.tar.gz
+        ├── multihic_T_pooled.tar.gz
+        ├── mustache_T1D_pooled.tar.gz
+        ├── mustache_T_pooled.tar.gz
+        ├── pipeline_info
+        │   ├── report.html
+        │   ├── report.html.1
+        │   ├── report.html.2
+        │   ├── report.html.3
+        │   ├── report.html.4
+        │   ├── report.html.5
+        │   ├── timeline.html
+        │   ├── timeline.html.1
+        │   ├── timeline.html.2
+        │   ├── timeline.html.3
+        │   ├── timeline.html.4
+        │   ├── timeline.html.5
+        │   ├── trace.txt
+        │   ├── trace.txt.1
+        │   ├── trace.txt.2
+        │   ├── trace.txt.3
+        │   ├── trace.txt.4
+        │   └── trace.txt.5
+        ├── raw_data
+        │   ├── 1018_CD14_S2_L002_R1_001.fastq.gz
+        │   ├── 1018_CD14_S2_L002_R2_001.fastq.gz
+        │   ├── 1018_CD14_S2_L003_R1_001.fastq.gz
+        │   ├── 1018_CD14_S2_L003_R2_001.fastq.gz
+        │   ├── 1018_CD14_S2_L004_R1_001.fastq.gz
+        │   ├── 1018_CD14_S2_L004_R2_001.fastq.gz
+        │   ├── 1018_CD3_S1_L002_R1_001.fastq.gz
+        │   ├── 1018_CD3_S1_L002_R2_001.fastq.gz
+        │   ├── 1018_CD3_S1_L003_R1_001.fastq.gz
+        │   ├── 1018_CD3_S1_L003_R2_001.fastq.gz
+        │   ├── 1018_CD3_S1_L004_R1_001.fastq.gz
+        │   ├── 1018_CD3_S1_L004_R2_001.fastq.gz
+        │   ├── 1027_CD14_S4_L002_R1_001.fastq.gz
+        │   ├── 1027_CD14_S4_L002_R2_001.fastq.gz
+        │   ├── 1027_CD14_S4_L003_R1_001.fastq.gz
+        │   ├── 1027_CD14_S4_L003_R2_001.fastq.gz
+        │   ├── 1027_CD14_S4_L004_R1_001.fastq.gz
+        │   ├── 1027_CD14_S4_L004_R2_001.fastq.gz
+        │   ├── 1027_CD3_S3_L002_R1_001.fastq.gz
+        │   ├── 1027_CD3_S3_L002_R2_001.fastq.gz
+        │   ├── 1027_CD3_S3_L003_R1_001.fastq.gz
+        │   ├── 1027_CD3_S3_L003_R2_001.fastq.gz
+        │   ├── 1027_CD3_S3_L004_R1_001.fastq.gz
+        │   ├── 1027_CD3_S3_L004_R2_001.fastq.gz
+        │   ├── 1035_CD14_S6_L002_R1_001.fastq.gz
+        │   ├── 1035_CD14_S6_L002_R2_001.fastq.gz
+        │   ├── 1035_CD14_S6_L003_R1_001.fastq.gz
+        │   ├── 1035_CD14_S6_L003_R2_001.fastq.gz
+        │   ├── 1035_CD14_S6_L004_R1_001.fastq.gz
+        │   ├── 1035_CD14_S6_L004_R2_001.fastq.gz
+        │   ├── 1035_CD3_S5_L002_R1_001.fastq.gz
+        │   ├── 1035_CD3_S5_L002_R2_001.fastq.gz
+        │   ├── 1035_CD3_S5_L003_R1_001.fastq.gz
+        │   ├── 1035_CD3_S5_L003_R2_001.fastq.gz
+        │   ├── 1035_CD3_S5_L004_R1_001.fastq.gz
+        │   ├── 1035_CD3_S5_L004_R2_001.fastq.gz
+        │   ├── 1046_CD14_S8_L002_R1_001.fastq.gz
+        │   ├── 1046_CD14_S8_L002_R2_001.fastq.gz
+        │   ├── 1046_CD14_S8_L003_R1_001.fastq.gz
+        │   ├── 1046_CD14_S8_L003_R2_001.fastq.gz
+        │   ├── 1046_CD14_S8_L004_R1_001.fastq.gz
+        │   ├── 1046_CD14_S8_L004_R2_001.fastq.gz
+        │   ├── 1046_CD3_S7_L002_R1_001.fastq.gz
+        │   ├── 1046_CD3_S7_L002_R2_001.fastq.gz
+        │   ├── 1046_CD3_S7_L003_R1_001.fastq.gz
+        │   ├── 1046_CD3_S7_L003_R2_001.fastq.gz
+        │   ├── 1046_CD3_S7_L004_R1_001.fastq.gz
+        │   ├── 1046_CD3_S7_L004_R2_001.fastq.gz
+        │   ├── Reports
+        │   │   └── html
+        │   │       ├── HCJTMDSX3
+        │   │       │   └── all
+        │   │       ├── Report.css
+        │   │       ├── index.html
+        │   │       └── tree.html
+        │   ├── Stats
+        │   │   ├── AdapterTrimming.txt
+        │   │   ├── ConversionStats.xml
+        │   │   ├── DemultiplexingStats.xml
+        │   │   ├── DemuxSummaryF1L2.txt
+        │   │   ├── DemuxSummaryF1L3.txt
+        │   │   ├── DemuxSummaryF1L4.txt
+        │   │   ├── FastqSummaryF1L2.txt
+        │   │   ├── FastqSummaryF1L3.txt
+        │   │   ├── FastqSummaryF1L4.txt
+        │   │   └── Stats.json
+        │   ├── Undetermined_S0_L002_R1_001.fastq.gz
+        │   ├── Undetermined_S0_L002_R2_001.fastq.gz
+        │   ├── Undetermined_S0_L003_R1_001.fastq.gz
+        │   ├── Undetermined_S0_L003_R2_001.fastq.gz
+        │   ├── Undetermined_S0_L004_R1_001.fastq.gz
+        │   └── Undetermined_S0_L004_R2_001.fastq.gz
+        ├── src
+        │   ├── SRA-PRJNA385337.txt
+        │   ├── TopDom_v0.0.2.R
+        │   ├── project_skim-GSE107148_Tcells.yml
+        │   ├── project_skim-GSE115896_Tcell.yml
+        │   ├── project_skim-PRJNA385337_Monocytes.yml
+        │   ├── run-mysql.sh
+        │   ├── run-r-base.sh
+        │   └── tri-hic_tools.r
+        └── virtual4c
+            ├── CLEC16A.tar.gz
+            └── RMI2.tar.gz
+
+99 directories, 2971 files
