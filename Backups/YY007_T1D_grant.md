@@ -1,8 +1,8 @@
 # README
 
-Install Western Digital Software
-Run WD Discovery software
-Unlock the storage (pw: suhlab10518)
+1. Install Western Digital Software
+2. Run WD Discovery software
+3. Unlock the storage (pw: suhlab10518)
 
 
 # Filetree of YY007_T1D_grant
